@@ -1,0 +1,50 @@
+Coot, American
+Blackbird, Red-winged
+Bluebird, Eastern
+Cardinal, Northern
+Crow, American
+Cuckoo, Black-billed
+Robin, American
+Dove, Mourning
+Falcon, Peregrine
+Finch, House
+Flicker, Northern
+Gnatcatcher, Blue-Grey
+Goldfinch, American
+Goose, Canada
+Grackle, Common
+Grosbeak, Blue
+Hawk, Red-tailed
+Hawk, Sharp-shinned
+Heron, Great Blue
+Jay, Blue
+Kestrel, American
+Killdeer
+Kingfisher, Belted
+Kinglet, Golden-crowned
+Mallard
+Mockingbird, Northern
+Nighthawk, Common
+Oriole, Orchard
+Owl, Eastern Screech
+Owl, Great Horned
+Pigeon, Rock
+Raven, Common
+Robin, American
+Sandpiper, Least
+Sandpiper, Spotted
+Sparrow, Chipping
+Sparrow, House
+Sparrow, Song
+Starling, Common
+Swallow, Barn
+Swallow, Northern Rough-winged
+Teal, Eurasian (Green-winged)
+Thrasher, Brown
+Thrush, Hermit
+Warbler, Yellow
+Warbler, Yellow-rumped (Myrtle)
+Woodpecker, Downy
+Woodpecker, Hairy
+Yellowlegs, Greater
+Yellowthroat, Common
