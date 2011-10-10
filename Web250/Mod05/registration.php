@@ -57,7 +57,7 @@ Description: a registration form
 		if ($_POST['password'] == $_POST['confirm'])
 		    $password=$_POST['password'];
 	    else
-		$errors[]='Your passwords did not match. Please try again';
+		$errors[]='Your passwords did not match.';
 	    }
 	}
 
@@ -74,49 +74,61 @@ Description: a registration form
 	$numAfter=mysqli_num_rows($r);
 	//check the two against each other.
 	if ($numAfter>$numBefore){
-	    echo 'Thank You. You have been registered. <br />';
-	    echo '<a href="index.php">Go Back</a>';
+	    echo '<div class="message">';
+	    echo '<p>Thank You. You have been registered. <br />';
+	    echo '<a href="index.php">Go Back</a></p>';
+	    echo '</div>';
+	    echo '</body>';
+	    echo '</html>';
 	}
 	else
 	{
-	    echo ' <h1> System Error</h1> <p>You could not be registered due to a system error. Please try again later.</p>';
+	    echo '<div class="message">';
+	    echo ' <h1> System Error</h1> <p>You could not be registered due to a system error. </p>';
 	    echo '<p>'.mysqli_error($dbc).'</br> Querry: '.$querry.'</p>';
+	    echo '</div>';
+	    echo '</body>';
+	    echo '</html>';
 	}   
 	mysqli_close($dbc);
 	exit();
     }
     else{
+	echo '<div class="message">';
 	echo '<h1> Error!</h1>';
 	echo '<p> The following errors occured:<br />';
 	foreach ($errors as $msg)
 	    echo "- $msg<br />\n";
 	echo "</p><p>Please try again.</p>";
+	echo '</div>';
     }	
 }
 ?>
 <!--registration form-->
-<h1>Register Here</h1>
 <form action="registration.php" method="post">
+<fieldset>
+    <legend>Register Here</legend>
     <p>
     <label for="firstName">First Name:</label>
-    <input type="text" name="firstName" size="15" maxlength="20" value="<?php if(isset($_POST['firstName'])) echo $_POST['firstName']; ?>" id="firstName">
+    <input type="text" placeholder="John" name="firstName" size="15" maxlength="20" value="<?php if(isset($_POST['firstName'])) echo $_POST['firstName']; ?>" id="firstName">
     </p>
     <p>	
     <label for="lastName">Last Name:</label>
-    <input type="text" name="lastName" size="15" maxlength="20" value="<?php if(isset($_POST['lastName'])) echo $_POST['lastName']; ?>" id="lastName">
+    <input placeholder="Doe" type="text" name="lastName" size="15" maxlength="20" value="<?php if(isset($_POST['lastName'])) echo $_POST['lastName']; ?>" id="lastName">
     </p>
     <p>
     <label for="email">Email Address:</label>
-    <input type="text" name="email" size="15" maxlength="80" value="<?php if(isset($_POST['email'])) echo $_POST['email']; ?>" id="email">
+    <input placeholder="me@whatever.com" type="text" name="email" size="15" maxlength="80" value="<?php if(isset($_POST['email'])) echo $_POST['email']; ?>" id="email">
     </p>
     <label for="password">Password:</label>
-    <input type="password" name="password" size="15" maxlength="20" id="password">
+    <input placeholder="secret password" type="password" name="password" size="15" maxlength="20" id="password">
     <p>
     <label for="confirm">Confirm Password:</label>
-    <input type="password" name="confirm" size="15" maxlength="20" id="confirm">
+    <input placeholder="type it again" type="password" name="confirm" size="15" maxlength="20" id="confirm">
     </p>
     <p><input type="submit" name="submit" value="Register"></p>
     <input type="hidden" name="submitted" value="TRUE" />
+</fieldset>
 </form>
 </body>
 </div>
