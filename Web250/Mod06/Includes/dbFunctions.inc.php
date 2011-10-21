@@ -47,7 +47,7 @@ function makePageNumberLinks($current_page, $display, $pages){
 			$array[]='<a href="birdsPagination.php?s='.(($display * ($i-1))).'&p='.$pages.'">'.$i.'</a>';
 			}
 		else
-			$array[]=$i.'';
+			$array[]="<p>$i</p>";
 	}//end for loop
 	return ($array);
 }

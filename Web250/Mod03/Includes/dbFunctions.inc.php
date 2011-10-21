@@ -4,7 +4,7 @@ function dbConnect() {  //returns a database connection($dbc)
  
 //set database access info
 Define ('DB_USER', 'root');
-Define ('DB_PASSWORD', '');
+Define ('DB_PASSWORD', 'password');
 Define ('DB_HOST', 'localhost');
 Define ('DB_NAME', 'birds_db');
 
