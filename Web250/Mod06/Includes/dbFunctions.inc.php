@@ -51,5 +51,21 @@ function makePageNumberLinks($current_page, $display, $pages){
 	}//end for loop
 	return ($array);
 }
+
+function addToDatabase($array, $dbc){
+	if (!$dbc)
+		echo "<p>Could  not connect. Check dbc";
+	mysqli_select_db('birds_db');
+	$result=mysqli_query('select * from birds');
+	if (!$result)
+		echo "Query Failed.";
+	$i=0;	
+	while ($i < mysqli_num_fields($result)){
+		$meta=mysqli_fetch_fields($result);
+		$i++;
+	}
+		return ($meta);
+}
+
 ?>
 

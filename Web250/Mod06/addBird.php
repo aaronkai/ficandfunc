@@ -15,11 +15,13 @@ Description: form to add a bird
 
 <body>
 <?php
-//Define Variables
+//Define Variables and import functions
 $errors=array();
+include('Includes/dbFunctions.inc.php');
+// establish db connection
+$dbc = dbConnect();
 
 //Check for empty fields
-
 if (!empty($_POST['submitted']))
 {
 	if(empty($_POST['gName']))
@@ -35,19 +37,38 @@ if (!empty($_POST['submitted']))
 	
 	if(!empty($errors))
 	{
-	echo '<div class="message">';
-	echo '<h1> Error!</h1>';
-	echo '<p> The following errors occured:</p>';
-	foreach ($errors as $msg)
-	    echo "$msg";
-	echo "<p>Please try again.</p>";
-	echo '</div>';
+		echo '<div class="message">';
+		echo '<h1> Error!</h1>';
+		echo '<p> The following errors occured:</p>';
+		foreach ($errors as $msg)
+		    echo "$msg";
+		echo "<p>Please try again.</p>";
+		echo '</div>';
 	}
-}
-else{
-	//submit data to function
-}
 
+
+	//set optional variables to NULL if empty
+	if (empty($_POST['sName']))
+		$_POST['sName']="NULL";
+	if (empty($_POST['notes']))
+		$_POST['notes']="NULL";
+
+	$columnNames="";
+	if (!$dbc)
+		echo "<p>Could  not connect. Check dbc";
+	$result=mysqli_query($dbc, 'select * from birds');
+	if (!$result)
+		echo "Query Failed.";
+	$comma=",";
+	$i=0;	
+	while ($meta = mysqli_fetch_field($result)){
+			$columnNames=$columnNames.$meta->name.", ";
+		}
+	$columnNames=substr($columnNames,0,-2);
+	print($columnNames);
+	die();
+}	
+else
 ?>
 	<h1> Bird Database</h1>
 	<fieldset>
@@ -103,7 +124,7 @@ else{
 		echo "</select>";
 		?>
 
-		</p>
+	*	</p>
 		<p>
 		<label for="notes">Notes</label>
 		<textarea rows="10" cols="50" name="notes" id="notes" ><?php if(isset($_POST['notes'])) echo $_POST['notes']; ?></textarea>
