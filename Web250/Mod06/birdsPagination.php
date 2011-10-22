@@ -72,9 +72,9 @@ echo "<div id='table'>";
 
 //display arrows based on value of $dir
 if ($dir=='DESC')
-	echo '<img src="downArrow.png" alt="a down arrow" class="arrow" />';
+	echo '<img src="Images/downArrow.png" alt="a down arrow" class="arrow" />';
 if ($dir=='ASC')
-	echo '<img src="upArrow.png" alt="a up arrow" class="arrow" />';
+	echo '<img src="Images/upArrow.png" alt="a up arrow" class="arrow" />';
 	
 //table headings and create variables: sort, s, and p, and dir. Also toggle sort order
 echo"<table><tr>
@@ -120,7 +120,7 @@ if($pages >1){
 	
 }
 echo "</div>"; //end linksInner;
-echo '<img src="bird.png" id="bird" />';
+echo '<img src="Images/bird.png" id="bird" />';
 echo "</div>"; //end links
 
 
