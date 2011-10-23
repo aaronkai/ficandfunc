@@ -1,5 +1,5 @@
-<?php #Script birdsPagination_revamp.php
-$page_title="birdsPagination_revamp.php";
+<?php #Script birdsPagination.php
+$page_title="birdsPagination.php";
 
 include('./Includes/birdsHeader.inc.html');
 include ('Includes/dbFunctions.inc.php');
@@ -43,6 +43,9 @@ switch ($sort) {
 		case 'populationTrend':
 			$order_by = 'populationTrend ';
 			break;
+		case 'notes':
+			$order_by = 'notes ';
+			break;
 		default:
 			$order_by = 'nameGeneral ';
 			//$sort = 'generalName';
@@ -50,7 +53,7 @@ switch ($sort) {
 	}
 	
 //Make the querry
-$q="SELECT nameGeneral, nameSpecific, populationTrend FROM birds ORDER BY $order_by $dir LIMIT $start, $display";
+$q="SELECT birdID, nameGeneral, nameSpecific, genus, family, species, populationTrend, notes FROM birds ORDER BY $order_by $dir LIMIT $start, $display";
 $r=mysqli_query($dbc,$q);
 
 if (!$r) {
@@ -78,9 +81,11 @@ if ($dir=='ASC')
 	
 //table headings and create variables: sort, s, and p, and dir. Also toggle sort order
 echo"<table><tr>
-		<th><a href='birdsPagination_revamp.php?sort=generalName&dir=".(($sort != 'generalName')? 'ASC' : (($dir=='ASC')? 'DESC' : 'ASC'))."'>General Name</a></th>
-		<th><a href='birdsPagination_revamp.php?sort=specificName&dir=".(($sort != 'specificName')? 'ASC' : (($dir=='ASC')? 'DESC' : 'ASC'))."'>Specific Name</a></th>
-		<th><a href='birdsPagination_revamp.php?sort=populationTrend&dir=".(($sort != 'populationTrend')? 'ASC' : (($dir=='ASC')? 'DESC' : 'ASC'))."'>Population Trend</a></th></tr>";
+		<th></th>
+		<th><a href='birdsPagination.php?sort=generalName&amp;dir=".(($sort != 'generalName')? 'ASC' : (($dir=='ASC')? 'DESC' : 'ASC'))."'>General Name</a></th>
+		<th><a href='birdsPagination.php?sort=specificName&amp;dir=".(($sort != 'specificName')? 'ASC' : (($dir=='ASC')? 'DESC' : 'ASC'))."'>Specific Name</a></th>
+		<th><a href='birdsPagination.php?sort=populationTrend&amp;dir=".(($sort != 'populationTrend')? 'ASC' : (($dir=='ASC')? 'DESC' : 'ASC'))."'>Population Trend</a></th>
+		<th><a href='birdsPagination.php?sort=notes&amp;dir=".(($sort != 'notes')? 'ASC' : (($dir=='ASC')? 'DESC' : 'ASC'))."'>Notes</a></th></tr>";
 }
 
 	
@@ -89,7 +94,21 @@ $bg='#dddddd'; //set initial background color
 while ($row=mysqli_fetch_array($r, MYSQLI_ASSOC))
 {
 	$bg = ($bg == '#dddddd' ? '#ffffff' : '#dddddd'); //switch color;
-	echo '<tr bgcolor="'.$bg.'"><td>'.$row['nameGeneral'].'</td><td>'.$row['nameSpecific'].'</td><td>'.$row['populationTrend'].'</td>';
+	echo '<tr bgcolor="'.$bg.'">	<td> 	<a href="editBird.php?id='.$row['birdID'].'  
+							&amp;gName='.$row['nameGeneral'].'
+							&amp;sName='.$row['nameSpecific'].'
+							&amp;popTrend='.$row['populationTrend'].'
+							&amp;notes='.$row['notes'].'
+							&amp;genus='.$row['genus'].'
+							&amp;species='.$row['species'].'
+							&amp;family='.$row['family'].'">Edit</a>
+							
+						<a href="deleteBird.php?id='.$row['birdID'].'
+							&amp;gName='.$row['nameGeneral'].'
+							&amp;sName='.$row['nameSpecific'].'
+							&amp;popTrend='.$row['populationTrend'].'
+							&amp;notes='.$row['notes'].'">Delete</a></td>
+					<td>'.$row['nameGeneral'].'</td><td>'.$row['nameSpecific'].'</td><td>'.$row['populationTrend'].'</td><td>'.$row['notes'].'</td></tr>';
 }
 
 echo '</table>';
@@ -120,12 +139,12 @@ if($pages >1){
 	
 }
 echo "</div>"; //end linksInner;
-echo '<img src="Images/bird.png" id="bird" />';
+echo '<img src="Images/bird.png" id="bird" alt="birds in profile"/>';
 echo "</div>"; //end links
 
 
 echo '</div>'; //end main
-echo '</br>';
+echo '<br />';
 
 include ('./Includes/birdsFooter.inc.html');
 

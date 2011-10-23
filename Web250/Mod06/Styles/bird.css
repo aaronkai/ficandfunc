@@ -25,10 +25,15 @@ a:link, a:visited{
 	color: #000;
 }
 
-a:hover, a:active{
+h1 a:hover, h1 a:active{
 	color: #f0ffe9;
 }
 
+a:hover, a:active{
+	color: #aaa;
+
+
+}
 /* table ******************************/
 
 #table table{

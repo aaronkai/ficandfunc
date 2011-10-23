@@ -49,23 +49,14 @@ if (!empty($_POST['submitted']))
 
 	//set optional variables to NULL if empty
 	if (empty($_POST['sName']))
-		$_POST['sName']="NULL";
+		$_POST['sName']=NULL;
 	if (empty($_POST['notes']))
-		$_POST['notes']="NULL";
+		$_POST['notes']=NULL;
 
-	$columnNames="";
-	if (!$dbc)
-		echo "<p>Could  not connect. Check dbc";
-	$result=mysqli_query($dbc, 'select * from birds');
-	if (!$result)
-		echo "Query Failed.";
-	$comma=",";
-	$i=0;	
-	while ($meta = mysqli_fetch_field($result)){
-			$columnNames=$columnNames.$meta->name.", ";
-		}
-	$columnNames=substr($columnNames,0,-2);
-	print($columnNames);
+	$message= addToDatabase($_POST, $dbc, "birds");
+	if ($message)
+		echo "<p> Bird added successfully.<br />";
+		echo '<a href="birdsPagination.php">Return Home</a></p>';
 	die();
 }	
 else
