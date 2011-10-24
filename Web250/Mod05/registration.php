@@ -17,8 +17,9 @@ Description: a registration form
 <body>
 <div id="wrapper">
 <?php
-    include('Includes/dbFunctions.inc.php');
+    include($_SERVER['NFSN_SITE_ROOT'].'protected/Includes/dbFunctions.inc.php');
     $dbc=dbConnect();
+	$members=FALSE;
     if (isset($_POST['submitted'])) //error checking
     {
 	$errors= array();
