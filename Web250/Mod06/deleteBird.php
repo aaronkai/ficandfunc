@@ -53,8 +53,8 @@ if (!empty($_POST['submitted']))
 
 		?
 		<br />
-		<input type="radio" name="confirm" value="TRUE"/>Yes
-		<input type="radio" name="confirm" value="FALSE" />No
+		<input type="radio" name="confirm" value="TRUE" id="yes"/><label for="yes">Yes</label>
+		<input type="radio" name="confirm" value="FALSE" id="no"/><label for="no">No</label>
 		</p>	
 		<p>
 		<input type="hidden" name="submitted" value="TRUE" />	

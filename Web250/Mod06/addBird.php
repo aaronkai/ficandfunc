@@ -46,20 +46,21 @@ if (!empty($_POST['submitted']))
 		echo '</div>';
 	}
 
-
+	if(empty($errors)){
 	//set optional variables to NULL if empty
-	if (empty($_POST['sName']))
-		$_POST['sName']=NULL;
-	if (empty($_POST['notes']))
-		$_POST['notes']=NULL;
+		if (empty($_POST['sName']))
+			$_POST['sName']=NULL;
+		if (empty($_POST['notes']))
+			$_POST['notes']=NULL;
 
-	$message= addToDatabase($_POST, $dbc, "birds");
-	if ($message)
-		echo "<p> Bird added successfully.<br />";
-		echo '<a href="birdsPagination.php">Return Home</a></p>';
-	die();
+		$message= addToDatabase($_POST, $dbc, "birds");
+		if ($message)
+			echo "<p> Bird added successfully.<br />";
+			echo '<a href="birdsPagination.php">Return Home</a></p>';
+		die();
+	}
 }	
-else
+
 ?>
 	<h1> Bird Database</h1>
 	<fieldset>
