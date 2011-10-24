@@ -19,7 +19,11 @@ Description: a registration form
 <?php
     include($_SERVER['NFSN_SITE_ROOT'].'protected/Includes/dbFunctions.inc.php');
     $dbc=dbConnect();
+<<<<<<< HEAD
 	$members=FALSE;
+=======
+    $member=false;
+>>>>>>> 89185f39b5674913c1f21cc31ff369d366082091
     if (isset($_POST['submitted'])) //error checking
     {
 	$errors= array();

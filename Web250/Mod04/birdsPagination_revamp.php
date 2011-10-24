@@ -2,7 +2,7 @@
 $page_title="birdsPagination_revamp.php";
 
 include('./Includes/birdsHeader.inc.html');
-include ($_SERVER['NFSN_SITE_ROOT'].'protected/Includes/dbFunctions.inc.php');
+include ('Includes/dbFunctions.inc.php');
 $dbc = dbConnect();
 $display = 10;
 if (!isset($_GET['dir']))
