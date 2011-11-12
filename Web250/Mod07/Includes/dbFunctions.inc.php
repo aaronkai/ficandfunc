@@ -1,4 +1,6 @@
 <?php
+
+# select dbConnect version based on localhost or WebServer
 #include ($_SERVER['NFSN_SITE_ROOT'].'protected/Includes/dbConnect.inc.php');
 include ('dbConnect.php');
 

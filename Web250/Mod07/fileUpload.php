@@ -29,13 +29,29 @@ if (isset($_POST['submitted'])) {
 		
 			// Move the file over.
 			if (move_uploaded_file ($_FILES['upload']['tmp_name'], "../BirdImages/{$_FILES['upload']['name']}")) {
-				echo '<p><em>The file has been uploaded!</em></p>';
+				echo '<p><em>The file has been uploaded! The database has been updated!</em></p>';
 
 			//Aaron's added code to communicate with SQL
-			echo $_POST['id'];
-			echo $_POST['description'];
-			echo $_FILES['upload']['name'];
+			#echo $_POST['id'];
+			$id = $_POST['id']; 
+			#echo $_POST['description'];
+			$description = $_POST['description'];
+			#echo $_FILES['upload']['name'];
+			$fileLocation = $_FILES['upload']['name'];
+
+			$dbc = dbConnect();
+			if(!$dbc)	
+				echo "Could not establish dbc";
 			
+			$query = "INSERT INTO birdImages (birdID, fileLocation, description) VALUES ('$id', '$fileLocation', '$description')";
+			$result = mysqli_query($dbc, $query);
+			
+			/*if($result)
+				echo "query ran";
+			else
+				echo "query didn't run";
+			*/
+			mysqli_close($dbc);
 			//link to bird database after image is uploaded
 			echo "<p><a href='birdsPagination.php'>Go back to Birds Database</a></p>";
 			} // End of move... IF.
