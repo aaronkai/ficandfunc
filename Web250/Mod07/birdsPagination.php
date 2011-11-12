@@ -119,7 +119,7 @@ while ($row=mysqli_fetch_array($r, MYSQLI_ASSOC))
 					<td>'.$row['populationTrend'].'</td>
 					<td>'.$row['notes'].'</td>
 					<td><a href="fileUpload.php?id='.$row['birdID'].'">Upload a Photo</a></td>
-					<td><a href="">View Photos</a></td></tr>';
+					<td>'.lightbox($dbc, $row['birdID']).'</td></tr>';
 }
 
 echo '</table>';

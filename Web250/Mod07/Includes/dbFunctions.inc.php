@@ -138,5 +138,21 @@ function handleUploadErrors(){
 		unlink ($_FILES['upload']['tmp_name']);
 	}
 }
+
+function lightbox($dbc, $birdID){
+	$query= "SELECT * FROM birdImages WHERE birdID=".$birdID;
+	$result = mysqli_query($dbc, $query);
+	/*if($result)
+		echo "query ran";
+	else 
+		echo "query didnt run";*/
+	$anchor="";
+	$i=0;
+	while ($row = mysqli_fetch_array($result)){
+		$i+=1;
+		$anchor=$anchor.'<a href="../BirdImages/'.$row['fileLocation'].'" rel="lightbox[birdID'.$row['birdID'].']" title="'.$row['description'].'">View Image #'.$i.'</a><br />';
+	}
+	return $anchor;
+}
 ?>
 
