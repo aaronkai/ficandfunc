@@ -47,7 +47,7 @@ if (!empty($_POST['submitted']))
 }	
 
 ?>
-	<fieldset>
+	<fieldset id="forms">
 	<legend>Enter a bird into the database</legend>
 	<form method="post" action="addBird.php">
 		<p>

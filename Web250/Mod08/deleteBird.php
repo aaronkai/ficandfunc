@@ -27,7 +27,7 @@ if (!empty($_POST['submitted']))
 	}
 }	
 ?>
-	<fieldset>
+	<fieldset id="forms">
 	<legend>Delete a bird in the database</legend>
 	<form method="post" action="deleteBird.php">
 		<p>Are you sure you want to delete 

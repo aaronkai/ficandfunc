@@ -23,10 +23,14 @@ session_start();
 <div id="wrapper">
 	<h1><a href="birdsPagination.php">Bird Database</a></h1>
 	
-<div id='register'>
-	<a href='index.php' >Home</a>
+<div id='navbar'>
 	<?php 
+	echo "<a href='index.php'>Home</a>";
 	if (isset($_SESSION['firstName'])) 
-		echo "<a href=''>Welcome, ".$_SESSION['firstName']."</a>";
+		echo "<a href='logout.php'>Logout</a>";
+		echo "<a href='addBird.php'>Add a Bird</a>";
+		echo "<a href='changePassword.php'>Change Password</a>";
+	{	echo "<a href=''>Welcome, ".$_SESSION['firstName']."</a>";
+	}
 	?>
 </div> 

@@ -45,7 +45,7 @@ if (!empty($_POST['submitted']))
 }	
 else
 ?>
-	<fieldset>
+	<fieldset id="forms">
 	<legend>Edit a bird in the database</legend>
 	<form method="post" action="editBird.php">
 		<p>
@@ -65,12 +65,12 @@ else
 
 		<p>
 		<label for="species">Species: </label>
-		<input type="text" size="120" id="species" value="<?php if(isset($_POST['species'])) echo $_POST['species']; ?>" name="species"  placeholder="<?php if(isset($_GET['species']))echo $_GET['species']; ?>" />
+		<input type="text" size="20" id="species" value="<?php if(isset($_POST['species'])) echo $_POST['species']; ?>" name="species"  placeholder="<?php if(isset($_GET['species']))echo $_GET['species']; ?>" />
 		</p>
 		
 		<p>
 		<label for="family">Family: </label>
-		<input type="text" size="120" id="family" value="<?php if(isset($_POST['family'])) echo $_POST['family']; ?>" name="family"  placeholder="<?php if(isset($_GET['family']))echo $_GET['family']; ?>" />
+		<input type="text" size="20" id="family" value="<?php if(isset($_POST['family'])) echo $_POST['family']; ?>" name="family"  placeholder="<?php if(isset($_GET['family']))echo $_GET['family']; ?>" />
 		</p>
 
 		<p>

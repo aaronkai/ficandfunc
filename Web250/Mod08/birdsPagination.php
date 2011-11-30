@@ -101,7 +101,6 @@ if (empty($_SESSION['userID']))
 
 //otherwise display member table
 else{
-echo "<p><a href='addBird.php' id='addBird'>Add a Bird</a></p>";
 include ('./Includes/memberTable.inc.php');
 }
 
