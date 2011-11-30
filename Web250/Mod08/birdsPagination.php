@@ -72,6 +72,23 @@ $dir=$_GET['dir'];
 
 	
 echo "<div id='main'>";
+if(!empty($_POST['login']))
+{
+	list($check, $data) = check_login($dbc, $_POST['email'], $_POST['password']);
+	if ($check)
+	{
+		session_start();
+		$_SESSION['userID'] = $data['userID'];
+		$_SESSION['firstName'] = $data['firstName'];
+	}
+	else
+	{
+		foreach ($data as $error)
+			echo "<p>$error</p>";
+	}
+}
+if (empty($_SESSION['userID']))
+	include('./Includes/login.inc.html');
 echo "<div id='table'>";
 
 //display arrows based on value of $dir
