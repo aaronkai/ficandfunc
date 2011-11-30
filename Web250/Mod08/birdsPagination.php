@@ -1,7 +1,7 @@
 <?php #Script birdsPagination.php
-$page_title="birdsPagination.php";
+$page_title="Bird Database";
 
-include('./Includes/birdsHeader.inc.html');
+include('./Includes/birdsHeader.inc.php');
 include ('Includes/dbFunctions.inc.php');
 
 $dbc = dbConnect();
@@ -59,7 +59,9 @@ $r=mysqli_query($dbc,$q);
 
 if (!$r) {
 echo "<h1>problem with query</h1>";
-} else {
+} 
+
+else {
 
 $current_page=($start/$display) + 1;
 
@@ -77,9 +79,11 @@ if(!empty($_POST['login']))
 	list($check, $data) = check_login($dbc, $_POST['email'], $_POST['password']);
 	if ($check)
 	{
-		session_start();
 		$_SESSION['userID'] = $data['userID'];
 		$_SESSION['firstName'] = $data['firstName'];
+		$url = absolute_url('index.php');
+		header("Location: $url");
+		exit();
 	}
 	else
 	{
@@ -87,61 +91,19 @@ if(!empty($_POST['login']))
 			echo "<p>$error</p>";
 	}
 }
+
+//if user is not logged in, display login box and generic table
 if (empty($_SESSION['userID']))
-	include('./Includes/login.inc.html');
-echo "<div id='table'>";
-
-//display arrows based on value of $dir
-//if ($dir=='DESC')
-//	echo '<img src="Images/downArrow.png" alt="a down arrow" class="arrow" />';
-//if ($dir=='ASC')
-//	echo '<img src="Images/upArrow.png" alt="a up arrow" class="arrow" />';
-
-echo "<p><a href='addBird.php' id='addBird'>Add a Bird</a></p>";
-	
-//table headings and create variables: sort, s, and p, and dir. Also toggle sort order
-echo"<table><tr>
-		<th></th>
-		<th><a href='birdsPagination.php?sort=generalName&amp;dir=".(($sort != 'generalName')? 'ASC' : (($dir=='ASC')? 'DESC' : 'ASC'))."'>General Name</a></th>
-		<th><a href='birdsPagination.php?sort=specificName&amp;dir=".(($sort != 'specificName')? 'ASC' : (($dir=='ASC')? 'DESC' : 'ASC'))."'>Specific Name</a></th>
-		<th><a href='birdsPagination.php?sort=populationTrend&amp;dir=".(($sort != 'populationTrend')? 'ASC' : (($dir=='ASC')? 'DESC' : 'ASC'))."'>Population Trend</a></th>
-		<th><a href='birdsPagination.php?sort=notes&amp;dir=".(($sort != 'notes')? 'ASC' : (($dir=='ASC')? 'DESC' : 'ASC'))."'>Notes</a></th>
-		<th>Upload a Photo</th>
-		<th>View Bird Photos</th></tr>";
-}
-
-	
-//fetch and print records;
-$bg='#dddddd'; //set initial background color
-while ($row=mysqli_fetch_array($r, MYSQLI_ASSOC))
 {
-	$bg = ($bg == '#dddddd' ? '#ffffff' : '#dddddd'); //switch color;
-	echo '<tr bgcolor="'.$bg.'">	<td> 	<a href="editBird.php?id='.$row['birdID'].'  
-							&amp;gName='.$row['nameGeneral'].'
-							&amp;sName='.$row['nameSpecific'].'
-							&amp;popTrend='.$row['populationTrend'].'
-							&amp;notes='.$row['notes'].'
-							&amp;genus='.$row['genus'].'
-							&amp;species='.$row['species'].'
-							&amp;family='.$row['family'].'">Edit</a>
-							
-						<a href="deleteBird.php?id='.$row['birdID'].'
-							&amp;gName='.$row['nameGeneral'].'
-							&amp;sName='.$row['nameSpecific'].'
-							&amp;popTrend='.$row['populationTrend'].'
-							&amp;notes='.$row['notes'].'">Delete</a></td>
-					<td>'.$row['nameGeneral'].'</td>
-					<td>'.$row['nameSpecific'].'</td>
-					<td>'.$row['populationTrend'].'</td>
-					<td>'.$row['notes'].'</td>
-					<td><a href="fileUpload.php?id='.$row['birdID'].'">Upload a Photo</a></td>
-					<td>'.lightbox($dbc, $row['birdID']).'</td></tr>';
+	include('./Includes/login.inc.html');
+	include('./Includes/genericTable.inc.php');
 }
 
-echo '</table>';
-echo '</div>'; //end table
-mysqli_free_result($r);
-mysqli_close($dbc);
+//otherwise display member table
+else{
+echo "<p><a href='addBird.php' id='addBird'>Add a Bird</a></p>";
+include ('./Includes/memberTable.inc.php');
+}
 
 echo '<div id="links">';
 //make links to other pages, if necessary
@@ -166,6 +128,6 @@ if($pages >1){
 echo "</div>"; //end links
 echo '</div>'; //end main
 
-include ('./Includes/birdsFooter.inc.html');
-
+include ('./Includes/birdsFooter.inc.php');
+}
 ?>
