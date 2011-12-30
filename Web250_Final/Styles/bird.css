@@ -5,7 +5,7 @@ background: #bfdab1;
 
 #wrapper{
 background: url(../Images/backdrop.jpg) no-repeat center top;	
-width: 950px;
+width: 960px;
 margin: -23px auto 0;
 border: 1px solid #000;
 position: relative;
@@ -57,10 +57,20 @@ margin-bottom: 40px;
 
 }
 
+/*column_left**************************************/
+#column_left{
+	width: 600;
+}
+
+
+/*column-right**************************************/
+#column_right{
+	width: 260;
+	float: right;
+}
 /*login**************************************/
 
 #login{
-	float: right;
 	padding: 5px;
 	margin-right: 25px;
 	width: 250px;
@@ -95,6 +105,31 @@ margin-bottom: 40px;
 	border-radius: 5px;
 }
 
+/*Search**************************************/
+
+#search{
+	padding: 5px;
+	margin-right: 25px;
+	width: 250px;
+	background: #dab1da;
+	border: 1px solid #000;
+}
+
+#search fieldset{
+	margin-bottom: 5px;
+}
+#search .button{
+	background: #ddd;
+	text-align: center;
+	border: 1px solid #111;
+	padding: 3px;
+	display: block;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
 /* table ******************************/
 #table table{
 width: 625px;		
@@ -106,7 +141,6 @@ border: 1px solid #000;
 #table {
 opacity: 0.7;
 width: 625px;
-margin-left: 25px;
 }
 
 .arrow {
@@ -133,7 +167,6 @@ th{
 	
 /* links ****************************************/
 #links {
-	margin-left: 25px;
 	border-left: 1px solid #000;
 	border-bottom: 1px solid #000;
 	border-right: 1px solid #000;
@@ -169,18 +202,18 @@ th{
 /*forms*************************/
 #forms{
 	width: 500px;
-	margin-left: 25px;
 }
 
 /*email*************************/
 #emailAnchor {
 	background: #ddd;
+	width: 100px;
 	border: 1px solid #111;
+	font: bold .8em 'arial', sans-serif;
 	padding: 3px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	margin: 25px;
 }
  /* footer ************************************/
 #footer{
