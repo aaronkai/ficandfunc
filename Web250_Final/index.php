@@ -82,17 +82,14 @@ echo "<div id='main'>";
 //right column------------------------------------------------
 echo '<div id="column_right">';
 
-//include search function
-include('Includes/search.inc.php');
-
-//include admin contact via email
-echo "<p><a href='email.php' id='emailAnchor'>Email the Site Administrator</a></p>";
-
 //if user is not logged in, display login area
 if (empty($_SESSION['userID']))
 {
 	include('./Includes/login.inc.html');
 }
+
+//include search function
+include('Includes/search.inc.php');
 
 echo '</div>'; //end column_right----------------------------------
 
@@ -142,6 +139,7 @@ else{
 echo '<div id="links">';
 //make links to other pages, if necessary
 if($pages >1){
+	echo '<div id="linkButtons">';
 	//determine what page script is on
 	$current_page=($start/$display) + 1;
 	//if not first page make previous button 
@@ -158,6 +156,7 @@ if($pages >1){
 	//if it is not the last page, make the next button
 	echo nextButton($current_page, $start, $display, $pages, $sort, $dir);
 	
+	echo '</ div >'; //end linkButtons div
 }
 echo "</div>"; //end links
 echo '</div>'; //end column_left----------------------------------

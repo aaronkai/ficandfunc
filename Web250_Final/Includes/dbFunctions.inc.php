@@ -23,19 +23,19 @@ function numberOfPages($dbname, $dbc, $display) {
 
 function previousButton($current_page, $start, $display, $pages){
 	if($current_page !=1){
-		return('<a href="birdsPagination.php?s='.($start-$display).'&amp;p=' .$pages.'">Previous</a>');}
+		return('<a href="index.php?s='.($start-$display).'&amp;p=' .$pages.'">Previous</a>');}
 }
 
 function nextButton($current_page, $start, $display, $pages){
 	if($current_page !=$pages){
-	return('<a href="birdsPagination.php?s='.($start+$display).'&amp;p=' .$pages.'">Next</a>');}
+	return('<a href="index.php?s='.($start+$display).'&amp;p=' .$pages.'">Next</a>');}
 }
 
 function makePageNumberLinks($current_page, $display, $pages){
 	$array[]='';
 	for($i = 1; $i <= $pages; $i++) {
 		if ($i != $current_page){
-			$array[]='<a href="birdsPagination.php?s='.(($display * ($i-1))).'&amp;p='.$pages.'">'.$i.'</a>';
+			$array[]='<a href="index.php?s='.(($display * ($i-1))).'&amp;p='.$pages.'">'.$i.'</a>';
 			}
 		else
 			$array[]="<p>$i</p>";
