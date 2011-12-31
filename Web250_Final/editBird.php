@@ -33,12 +33,12 @@ if (!empty($_POST['submitted']))
 		$result = editBird($_POST['id'], $dbc, $edits);
 		if ($result){
 			echo "<p>Data updated successfully.</p>";
-			echo '<a href="birdsPagination.php">Return Home</a>';
+			echo '<a href="index.php">Return Home</a>';
 			die();
 		}
 		else{
 			echo "<p>There was a problem updating the data.</p>";
-			echo '<a href="birdsPagination.php">Return Home</a>';
+			echo '<a href="index.php">Return Home</a>';
 			die();
 		}
 	}

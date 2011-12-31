@@ -40,7 +40,7 @@ if (isset($_POST['submitted'])) {
 			*/
 			mysqli_close($dbc);
 			//link to bird database after image is uploaded
-			echo "<p><a href='birdsPagination.php'>Go back to Birds Database</a></p>";
+			echo "<p><a href='index.php'>Go back to Birds Database</a></p>";
 			} // End of move... IF.
 			
 		} else { // Invalid type.

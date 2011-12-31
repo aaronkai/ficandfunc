@@ -38,7 +38,7 @@ a:hover, a:active{
 /* main ******************************/
 
 #navbar{
-width: 900px;
+width: 960px;
 background: #fff;
 border-top: 1px solid #000;
 border-bottom: 1px solid #000;
@@ -59,15 +59,16 @@ margin-bottom: 40px;
 
 /*column_left**************************************/
 #column_left{
-	width: 600;
+	width: 630px;
 }
 
 
 /*column-right**************************************/
 #column_right{
-	width: 260;
+	width: 290px;
 	float: right;
 }
+
 /*login**************************************/
 
 #login{
@@ -132,15 +133,16 @@ margin-bottom: 40px;
 
 /* table ******************************/
 #table table{
-width: 625px;		
-border-collapse: collapse;
-border: 1px solid #000;
+	width: 625px;		
+	border-collapse: collapse;
+	border: 1px solid #000;
 }
 
 
 #table {
-opacity: 0.7;
-width: 625px;
+	opacity: 0.7;
+	width: 620px;
+
 }
 
 .arrow {
@@ -154,13 +156,16 @@ table a {
 
 
 td{
-	padding: 2px;
+	padding: 3px;
 	text-align: center;
 	border-top: 1px solid #8d578d;
 	opacity: 1;
+	font-size: .8em;
 }
 
 th{
+	padding: 3px;
+	font-size: .9em;
 	opacity: 1;
 	background: #dab1da;
 	}

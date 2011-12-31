@@ -77,26 +77,10 @@ else
 $dir=$_GET['dir'];
 
 echo "<div id='main'>";
-//start building web page ********************************************
-
-//right column------------------------------------------------
-echo '<div id="column_right">';
 
 //include search function
 include('Includes/search.inc.php');
 
-//include admin contact via email
-echo "<p><a href='email.php' id='emailAnchor'>Send an email to the site administrator</a></p>";
-
-//if user is not logged in, display login area
-if (empty($_SESSION['userID']))
-{
-	include('./Includes/login.inc.html');
-}
-
-echo '</div>'; //end column_right----------------------------------
-
-//create session data
 if(!empty($_POST['login']))
 {
 	list($check, $data) = check_login($dbc, $_POST['email'], $_POST['password']);
@@ -116,13 +100,10 @@ if(!empty($_POST['login']))
 	}
 }
 
-
-//left column-----------------------------------------------------
-echo '<div id="column_left">';
-
-//if user is not logged in, display generic table
+//if user is not logged in, display login box and generic table
 if (empty($_SESSION['userID']))
 {
+	include('./Includes/login.inc.html');
 	include('./Includes/genericTable.inc.php');
 }
 
@@ -160,7 +141,7 @@ if($pages >1){
 	
 }
 echo "</div>"; //end links
-echo '</div>'; //end column_left----------------------------------
+echo "<p><a href='email.php' id='emailAnchor'>Send an email to the site administrator</a></p>";
 echo '</div>'; //end main
 
 include ('./Includes/birdsFooter.inc.php');

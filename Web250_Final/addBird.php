@@ -41,7 +41,7 @@ if (!empty($_POST['submitted']))
 		$message= addToDatabase($_POST, $dbc, "birds");
 		if ($message)
 			echo "<p> Bird added successfully.<br />";
-			echo '<a href="birdsPagination.php">Return Home</a></p>';
+			echo '<a href="index.php">Return Home</a></p>';
 		die();
 	}
 }	

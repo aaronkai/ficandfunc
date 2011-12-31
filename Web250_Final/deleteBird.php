@@ -12,17 +12,17 @@ if (!empty($_POST['submitted']))
 	if($_POST['confirm']=="TRUE"){
 		$result = deleteBird($_POST['recordID'], $dbc);
 		if ($result){
-			echo "<p>Selection has been Deleted.<br /><a href='birdsPagination.php'>Return Home</a></p>";
+			echo "<p>Selection has been Deleted.<br /><a href='index.php'>Return Home</a></p>";
 			die();
 		}
 		if (!$result){
-			echo "There was a problem completing your request. <br /> <a href='birdsPagination.php'>Return Home</a></p>";	
+			echo "There was a problem completing your request. <br /> <a href='index.php'>Return Home</a></p>";	
 			die();
 		}
 	}
 	else	
 	{
-		echo '<p>Deletion was canceled.</p><a href="birdsPagination.php">Return Home</a>';
+		echo '<p>Deletion was canceled.</p><a href="index.php">Return Home</a>';
 		die();
 	}
 }	
