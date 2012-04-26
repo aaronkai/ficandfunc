@@ -64,7 +64,7 @@ if (isset($_POST['submitted'])) {
 	<p><label for="description">Image Description: </label><textarea cols="45" rows="5" id = "description" name="description"></textarea> </p>
 	<input type="hidden" name="id" value=<?php if(isset($_GET['id'])) echo $_GET['id']; if(isset($_POST['id'])) echo $_POST['id']; ?> />	
 	</fieldset>
-	<div align="center"><input type="submit" name="submit" value="Submit" /></div>
+	<input type="submit" name="submit" value="Submit" />
 	<input type="hidden" name="submitted" value="TRUE" />
 </form>
 </body>
