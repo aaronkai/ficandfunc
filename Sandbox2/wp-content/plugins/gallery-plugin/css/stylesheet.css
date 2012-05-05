@@ -1,0 +1,125 @@
+ul.gallery {
+	 list-style: none outside none;
+}
+
+#content .gallery_box ul
+{
+	list-style: none outside none;
+	margin:0;
+}
+
+#content .gallery_box li{
+	padding: 10px 10px 0 0;
+	clear: both;
+}
+
+#content .gallery_box li img {
+	padding: 5px;
+	margin:0 10px 10px 0;
+	float:left;
+	border: 1px solid #BDBDBD;
+}
+
+#content .gallery_box p {
+	margin-bottom:0px;
+}
+
+#content .gallery_box .gallery_detail_box p.title {
+	color: #000000;
+    line-height: 1.5em;
+    margin: 0 0 10px;
+	font-weight: bold;
+}
+
+.clear {
+	clear:both;
+	height:0;
+}
+
+.gllr_image_text {
+	margin-top:10px;
+	width:150px;
+}
+
+.gallery .gllr_image_block {
+	float: left;
+}
+
+.gallery img {
+    border: 10px solid #F1F1F1;
+}
+
+#Upload-File .gallery .gllr_image_block {
+    border: 1px solid #BDBDBD;
+    float: left;
+    height: 170px;
+    margin: 15px 6px 50px 0;
+    width: 170px;
+}
+
+.gallery .delete {
+	padding-top:2px;
+	text-align:center;
+}
+
+#content .gallery_box_single .gallery .gllr_image_block p {
+	border: 1px solid #BDBDBD;
+    margin:5px 6px 0 0;
+}
+
+.gllr_single_image_text {
+	font-size:12px;
+	color:#888;
+}
+
+.gllr_image_row {
+	clear:both;
+}
+
+.gallery li {
+    float: left;
+	margin:5px 6px 10px 0;
+}
+
+.gallery .gllr_image_container {
+    border: 1px solid #BDBDBD;
+}
+
+.gallery .delete {
+padding-top:2px;
+text-align:center;
+}
+
+.pp_social {
+	display:none;
+}
+
+#gllr_form_image_size label {
+	width:115px;
+	float:left;
+}
+
+#adminmenu #toplevel_page_bws_plugins div.wp-menu-image
+{
+	background: url("../images/icon_16.png") no-repeat scroll center center transparent;
+}
+.admin-color-classic #adminmenu #toplevel_page_bws_plugins div.wp-menu-image
+{
+	background: url("../images/icon_16_b.png") no-repeat scroll center center transparent;
+}
+#adminmenu #toplevel_page_bws_plugins:hover div.wp-menu-image, #adminmenu #toplevel_page_bws_plugins.wp-has-current-submenu div.wp-menu-image
+{
+	background: url("../images/icon_16_c.png") no-repeat scroll center center transparent;
+}	
+.wrap #icon-options-general.icon32-bws
+{
+	background: url("../images/icon_36.png") no-repeat scroll left top transparent;
+}
+.admin-color-classic .wrap #icon-options-general.icon32-bws
+{
+	background: url("../images/icon_36_b.png") no-repeat scroll left top transparent;
+}
+#toplevel_page_bws_plugins .wp-submenu .wp-first-item
+{
+	display:none;
+}

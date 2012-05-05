@@ -1,0 +1,452 @@
+.jquery-slider
+{
+	position:relative;
+	overflow:visible;
+}
+
+
+.slider-item
+{
+	position:absolute;
+	left:-9999px;	
+}
+
+
+.jquery-slider .slide-wrapper
+{
+	position:absolute;
+	overflow:visible;
+	background-color:#FFF;
+	border:4px solid #FFF;
+	-moz-box-shadow: 0px 0px 10px #CCC;
+	-webkit-box-shadow: 0px 0px 10px #CCC;
+	box-shadow: 0px 0px 10px #CCC;
+}
+
+
+.jquery-slider .slide
+{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	z-index:10;
+}
+
+
+.jquery-slider .slice
+{
+	display:block;
+	position:absolute;
+}
+
+
+.jquery-slider .preloader
+{
+	background:url(../images/preloader2.gif) no-repeat;
+	width:62px;
+	height:14px;
+	position:absolute;
+	z-index:15;
+}
+
+
+.jquery-slider .navigation-arrows a
+{
+	background:url(../images/arrows.png) no-repeat;
+	position:absolute;
+	z-index:30;
+	cursor:pointer;
+	width:38px;
+	height:38px;
+}
+
+
+.jquery-slider .navigation-arrows .left
+{
+	left:20px;
+}
+
+
+.jquery-slider .navigation-arrows .right
+{
+	right:20px;
+	background-position: -38px 0px;
+}
+
+
+.jquery-slider .slideshow-controls
+{
+	background:url(../images/playpause.png) no-repeat;
+	position:absolute;
+	z-index:40;
+	width:38px;
+	height:38px;
+	cursor:pointer;
+}
+
+
+.jquery-slider .slideshow-controls.pause
+{
+	background-position: 0px 0px;
+}
+
+
+.jquery-slider .slideshow-controls.play
+{
+	background-position: -38px 0px;
+}
+
+
+.jquery-slider .timer-animation
+{
+	position:absolute;
+	top:20px;
+	right:20px;
+	z-index:60;
+}
+
+
+.jquery-slider .caption
+{
+	overflow:hidden;
+	position:absolute;
+	z-index:20;
+}
+
+
+.jquery-slider .caption .wrapper
+{
+	position:absolute;
+}
+
+
+.jquery-slider .caption .background
+{
+	background-color:#000;
+	position:absolute;
+	z-index:10;
+	width:100%;
+	height:100%;
+}
+
+
+.jquery-slider .caption .content
+{	
+	position:absolute;
+	color:#FFF;
+	margin:0px;
+	padding:10px;
+	z-index:20;
+}
+
+
+.jquery-slider .thumbnail
+{
+	background-image:url(../images/preloader.gif);
+	background-color:#FFF;
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	overflow:hidden;
+	border:solid 3px #CCC;
+}
+
+
+.jquery-slider .navigation-buttons
+{
+	position:absolute;
+	z-index:50;	
+	top:105%;
+}
+
+
+.jquery-slider .navigation-buttons a
+{
+	background:url(../images/buttons.png) no-repeat;
+	background-position:0px 0px; 
+	position:relative;
+	cursor:pointer;
+	float:left;
+	width:14px;
+	height:14px;
+	margin: 0px 2px;
+}
+
+
+.jquery-slider .navigation-buttons .over
+{
+	background-position:-14px 0px; 
+}
+
+
+.jquery-slider .navigation-buttons .select
+{
+	background-position:-28px 0px; 
+}
+
+
+.jquery-slider .navigation-buttons .thumbnail
+{
+	position:absolute;
+	margin-bottom:10px;
+}
+
+.jquery-slider .navigation-thumbnails
+{
+	position:absolute;
+	z-index:50;
+}
+
+
+.jquery-slider .navigation-thumbnails .mask
+{
+	position:absolute;
+	overflow:hidden;
+}
+
+
+.jquery-slider .navigation-thumbnails .container
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+
+.jquery-slider .navigation-thumbnails .thumbnail
+{
+	cursor:pointer;
+	position:absolute;
+	margin:10px 5px;
+}
+
+
+.jquery-slider .navigation-thumbnails .thumbnail.over
+{
+	border:solid 3px #CCC;
+	-moz-box-shadow: 0px 0px 10px #555;
+	-webkit-box-shadow: 0px 0px 10px #555;
+	box-shadow: 0px 0px 10px #555;
+}
+
+
+.jquery-slider .navigation-thumbnails .thumbnail.select
+{
+	border:solid 3px #CCC;
+	-moz-box-shadow: 0px 0px 10px #555;
+	-webkit-box-shadow: 0px 0px 10px #555;
+	box-shadow: 0px 0px 10px #555;
+}
+
+
+.jquery-slider .navigation-thumbnails .thumbnail .caption
+{
+	position:absolute;
+	width:100%;
+}
+
+
+.jquery-slider .navigation-thumbnails .thumbnail .caption .background
+{
+	position:absolute;	
+	width:100%;
+	height:100%;
+	background-color:#000;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	z-index:10;
+}
+
+
+.jquery-slider .navigation-thumbnails .thumbnail .caption .content
+{
+	position:absolute;
+	color:#FFF;
+	font-size:12px;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	width:100%;
+	z-index:20;
+}
+
+
+.jquery-slider .navigation-thumbnails .arrows a
+{
+	background:url(../images/arrows.png) no-repeat;
+	position:absolute;
+	cursor:pointer;
+	width:38px;
+	height:38px;
+}
+
+
+.jquery-slider .navigation-thumbnails .arrows .vertical
+{
+	background:url(../images/arrows_v.png) no-repeat;
+}
+
+
+.jquery-slider .navigation-thumbnails .arrows .left
+{
+	
+}
+
+
+.jquery-slider .navigation-thumbnails .arrows .right
+{
+	background-position:-38px 0px;
+}
+
+
+
+.jquery-slider .navigation-thumbnails .buttons
+{
+	position:absolute;
+}
+
+
+.jquery-slider .navigation-thumbnails .buttons a
+{
+	background:url(../images/buttons.png) no-repeat;
+	background-position:0px 0px; 
+	position:absolute;
+	cursor:pointer;
+	width:14px;
+	height:14px;
+	margin: 2px;
+}
+
+
+.jquery-slider .navigation-thumbnails .buttons .over
+{
+	background-position:-14px 0px; 
+}
+
+
+.jquery-slider .navigation-thumbnails .buttons .select
+{
+	background-position:-28px 0px; 
+}
+
+
+.jquery-slider .tooltip
+{
+	position:absolute;
+	z-index:9999;
+	background-color:#DDD;
+	margin-bottom:20px;
+	border:#EEE solid 4px;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+}
+
+
+.jquery-slider .tooltip .content
+{
+	color:#999;
+	padding:10px;
+	margin:0px;
+}
+
+
+.jquery-slider .scrollbar
+{
+	width:340px;
+	height:20px;
+	position:absolute;
+}
+
+
+.jquery-slider .scrollbar-vertical
+{
+	height:340px;
+	width:20px;
+	position:absolute;
+}
+
+
+.jquery-slider .scrollbar .track
+{
+	background-image:url(../images/scrollbar_track.png);
+	width:300px;
+	height:20px;
+	position:absolute;
+	left:20px;
+}
+
+
+.jquery-slider .scrollbar-vertical .track
+{
+	background-image:url(../images/scrollbar_track_v.png);
+	width:20px;
+	height:300px;
+	position:absolute;
+	top:20px;
+}
+
+
+.jquery-slider .scrollbar .thumb
+{
+	background-image:url(../images/scrollbar_thumb.png);
+	width:70px;
+	height:20px;
+	position:absolute;
+	cursor:pointer;
+}
+
+
+.jquery-slider .scrollbar-vertical .thumb
+{
+	background-image:url(../images/scrollbar_thumb_v.png);
+	width:20px;
+	height:70px;
+	position:absolute;
+	cursor:pointer;
+}
+
+
+.jquery-slider .scrollbar .left
+{
+	background-image:url(../images/scrollbar_left.png);
+	width:20px;
+	height:20px;
+	position:absolute;
+	cursor:pointer;
+	left:0px;
+}
+
+
+.jquery-slider .scrollbar-vertical .left
+{
+	background-image:url(../images/scrollbar_up_v.png);
+	width:20px;
+	height:20px;
+	top:0px;
+	position:absolute;
+	cursor:pointer;
+}
+
+
+.jquery-slider .scrollbar .right
+{
+	background-image:url(../images/scrollbar_right.png);
+	width:20px;
+	height:20px;
+	position:absolute;
+	cursor:pointer;
+	right:0px;
+}
+
+
+.jquery-slider .scrollbar-vertical .right
+{
+	background-image:url(../images/scrollbar_down_v.png);
+	width:20px;
+	height:20px;
+	position:absolute;
+	cursor:pointer;
+	bottom:0px;
+}

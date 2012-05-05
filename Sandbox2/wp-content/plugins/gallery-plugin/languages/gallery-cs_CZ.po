@@ -1,0 +1,196 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gallery\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-13 13:42+0200\n"
+"PO-Revision-Date: 2012-04-13 13:42+0200\n"
+"Last-Translator: BWS <zos@bestwebsoft.com>\n"
+"Language-Team: Josef Sukdol <josef.sukdol@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: gallery-plugin.php:57
+#: gallery-plugin.php:616
+msgid "The following files \"gallery-template.php\" and \"gallery-single-template.php\" were not found in the directory of your theme. Please copy them from the directory `/wp-content/plugins/gallery-plugin/template/` to the directory of your theme for the correct work of the Gallery plugin"
+msgstr ""
+
+#: gallery-plugin.php:81
+#: gallery-plugin.php:91
+msgid "Galleries"
+msgstr "Galerie"
+
+#: gallery-plugin.php:82
+#: gallery-plugin.php:544
+msgid "Gallery"
+msgstr "Galerie"
+
+#: gallery-plugin.php:83
+msgid "Add New"
+msgstr "Vložit novou"
+
+#: gallery-plugin.php:84
+msgid "Add New Gallery"
+msgstr "Vložit novou galerii"
+
+#: gallery-plugin.php:85
+msgid "Edit Gallery"
+msgstr "Upravit galerii"
+
+#: gallery-plugin.php:86
+msgid "New Gallery"
+msgstr "Nová galerie"
+
+#: gallery-plugin.php:87
+msgid "View Gallery"
+msgstr "Zobrazit galerii"
+
+#: gallery-plugin.php:88
+msgid "Search Galleries"
+msgstr "Hledat galerii"
+
+#: gallery-plugin.php:89
+msgid "No Galleries found"
+msgstr "Nebyla nalezena žádná galerie"
+
+#: gallery-plugin.php:146
+msgid "Upload File"
+msgstr "Nahrát soubor"
+
+#: gallery-plugin.php:165
+msgid "Choose a screenshot to upload:"
+msgstr "Vyberte náhled pro nahrání:"
+
+#: gallery-plugin.php:170
+msgid "Please enable JavaScript to use the file uploader."
+msgstr "Prosím aktivujte JavaScript pro použití nahrávacího apletu."
+
+#: gallery-plugin.php:362
+msgid "Title"
+msgstr "Název"
+
+#: gallery-plugin.php:363
+msgid "Author"
+msgstr "Autor"
+
+#: gallery-plugin.php:364
+msgid "Photo's"
+msgstr "Fotky"
+
+#: gallery-plugin.php:365
+msgid "Public"
+msgstr "Veřejné"
+
+#: gallery-plugin.php:366
+msgid "Date"
+msgstr "Datum"
+
+#: gallery-plugin.php:513
+msgid "Activated plugins"
+msgstr "Aktivní pluginy"
+
+#: gallery-plugin.php:515
+#: gallery-plugin.php:523
+#: gallery-plugin.php:531
+msgid "Read more"
+msgstr "Další informace"
+
+#: gallery-plugin.php:515
+#: gallery-plugin.php:667
+#: gallery-plugin.php:682
+msgid "Settings"
+msgstr "Nastavení"
+
+#: gallery-plugin.php:521
+msgid "Installed plugins"
+msgstr "Nainstalované pluginy"
+
+#: gallery-plugin.php:529
+msgid "Recommended plugins"
+msgstr "Doporučené pluginy"
+
+#: gallery-plugin.php:531
+msgid "Download"
+msgstr "Stáhnout"
+
+#: gallery-plugin.php:531
+#, php-format
+msgid "Install %s"
+msgstr "Instaluj %s"
+
+#: gallery-plugin.php:531
+msgid "Install now from wordpress.org"
+msgstr "Instaluj ihned z wordpress.org"
+
+#: gallery-plugin.php:533
+msgid "If you have any questions, please contact us via plugin@bestwebsoft.com or fill in our contact form on our site"
+msgstr "Pokud máte jakékoliv dotazy, prosím kontaktujte nás na plugin@bestwebsoft.com a nebo vyplňte kontaktní formulář na našich stránkách."
+
+#: gallery-plugin.php:612
+msgid "Options saved."
+msgstr "Nastavení uložena."
+
+#: gallery-plugin.php:623
+msgid "Gallery Options"
+msgstr "Nastavení galerie"
+
+#: gallery-plugin.php:629
+msgid "The size of the cover album for gallery"
+msgstr "Rozměry náhledu alba v galerii"
+
+#: gallery-plugin.php:631
+#: gallery-plugin.php:639
+msgid "Image size name"
+msgstr "Název rozměru"
+
+#: gallery-plugin.php:632
+#: gallery-plugin.php:640
+msgid "Width (in px)"
+msgstr "Šířka (v px)"
+
+#: gallery-plugin.php:633
+#: gallery-plugin.php:641
+msgid "Height (in px)"
+msgstr "Výška (v px)"
+
+#: gallery-plugin.php:637
+msgid "Size for gallery image"
+msgstr "Rozměry náhledu obrázku v albu"
+
+#: gallery-plugin.php:645
+msgid "WordPress will create a copy of the post thumbnail with the specified dimensions when you upload a new photo."
+msgstr "WordPress vytvoří kopii náhledu obrázku v zadaných rozměrech při nahrání nového obrázku."
+
+#: gallery-plugin.php:648
+msgid "Count images in row"
+msgstr "Počet náhledů zobrazených v jedné řádce"
+
+#: gallery-plugin.php:656
+msgid "Save Changes"
+msgstr "Uložit změny"
+
+#: gallery-plugin.php:668
+msgid "FAQ"
+msgstr "FAQ "
+
+#: gallery-plugin.php:669
+msgid "Support"
+msgstr "Podpora"
+
+#: template/gallery-single-template.php:60
+msgid "Sorry - nothing to found."
+msgstr "Omlouvám se - nic nenalezeno."
+
+#: template/gallery-template.php:69
+msgid "See photo &raquo;"
+msgstr "Zobrazit obsah galerie &raquo;"
+
+#~ msgid "Size for gallery album cover"
+#~ msgstr "Размер для "

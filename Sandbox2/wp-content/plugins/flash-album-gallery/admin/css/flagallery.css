@@ -1,0 +1,8 @@
+/*
+** Flash Album Gallery StyleSheet
+*/
+.flashalbum { overflow:hidden; position:relative;}
+.grandmusic, .grandvideo, .grandflv, .grandmp3, .grandbanner { overflow:hidden; position:relative; }
+body.FlAG { margin: 0; padding: 0; font-size: 0; line-height: 0; }
+body.FlAG .FlAGd * { margin-top: 0 !important; margin-bottom: 0 !important; padding-top: 0 !important; padding-bottom: 0 !important; font-size: 0 !important; line-height: 0 !important; height: 0 !important; border-style: none !important; }
+body.FlAG .FlAGd img { display: none !important; }

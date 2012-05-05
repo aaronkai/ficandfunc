@@ -1,0 +1,195 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gallery\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-13 13:43+0200\n"
+"PO-Revision-Date: 2012-04-13 13:43+0200\n"
+"Last-Translator: BWS <zos@bestwebsoft.com>\n"
+"Language-Team: BWS <bestwebsoft.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: gallery-plugin.php:57
+#: gallery-plugin.php:616
+msgid "The following files \"gallery-template.php\" and \"gallery-single-template.php\" were not found in the directory of your theme. Please copy them from the directory `/wp-content/plugins/gallery-plugin/template/` to the directory of your theme for the correct work of the Gallery plugin"
+msgstr ""
+
+#: gallery-plugin.php:81
+#: gallery-plugin.php:91
+msgid "Galleries"
+msgstr "Galerie zdjęć"
+
+#: gallery-plugin.php:82
+#: gallery-plugin.php:544
+msgid "Gallery"
+msgstr "Galeria zdjęć"
+
+#: gallery-plugin.php:83
+msgid "Add New"
+msgstr "Dodaj nową"
+
+#: gallery-plugin.php:84
+msgid "Add New Gallery"
+msgstr "Dodaj nową galerię"
+
+#: gallery-plugin.php:85
+msgid "Edit Gallery"
+msgstr "Edytuj galerię"
+
+#: gallery-plugin.php:86
+msgid "New Gallery"
+msgstr "Nowa galeria"
+
+#: gallery-plugin.php:87
+msgid "View Gallery"
+msgstr "Zobacz galerię"
+
+#: gallery-plugin.php:88
+msgid "Search Galleries"
+msgstr "Szukaj galerii"
+
+#: gallery-plugin.php:89
+msgid "No Galleries found"
+msgstr "Nie znaleziono żadnej galerii"
+
+#: gallery-plugin.php:146
+msgid "Upload File"
+msgstr "Wgraj plik"
+
+#: gallery-plugin.php:165
+msgid "Choose a screenshot to upload:"
+msgstr "Wybierz zrzut ekrany do wgrania na serwer"
+
+#: gallery-plugin.php:170
+msgid "Please enable JavaScript to use the file uploader."
+msgstr "Proszę właczyć osbługę JavaScript by skorzystać z opcji wgrywania plików na serwer"
+
+#: gallery-plugin.php:362
+msgid "Title"
+msgstr "Tytuł"
+
+#: gallery-plugin.php:363
+msgid "Author"
+msgstr "Autor"
+
+#: gallery-plugin.php:364
+msgid "Photo's"
+msgstr "Zdjęcie"
+
+#: gallery-plugin.php:365
+msgid "Public"
+msgstr "Publiczne"
+
+#: gallery-plugin.php:366
+msgid "Date"
+msgstr "Data"
+
+#: gallery-plugin.php:513
+msgid "Activated plugins"
+msgstr "Aktywny plugin"
+
+#: gallery-plugin.php:515
+#: gallery-plugin.php:523
+#: gallery-plugin.php:531
+msgid "Read more"
+msgstr "Czytaj dalej"
+
+#: gallery-plugin.php:515
+#: gallery-plugin.php:667
+#: gallery-plugin.php:682
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: gallery-plugin.php:521
+msgid "Installed plugins"
+msgstr "Zainstalowane pluginy"
+
+#: gallery-plugin.php:529
+msgid "Recommended plugins"
+msgstr "Rekomendowane pluginy"
+
+#: gallery-plugin.php:531
+msgid "Download"
+msgstr "Pobierz"
+
+#: gallery-plugin.php:531
+#, php-format
+msgid "Install %s"
+msgstr "Zainstaluj %s"
+
+#: gallery-plugin.php:531
+msgid "Install now from wordpress.org"
+msgstr "Zainstaluj teraz z wordpress.org"
+
+#: gallery-plugin.php:533
+msgid "If you have any questions, please contact us via plugin@bestwebsoft.com or fill in our contact form on our site"
+msgstr "Jeśli masz jakiekolwiek pytania, proszę napisz do nas na adres plugin@bestwebsoft.com albo wypełnij formularz kontaktowy na naszej stronie."
+
+#: gallery-plugin.php:612
+msgid "Options saved."
+msgstr "Opcje zostały zapisane."
+
+#: gallery-plugin.php:623
+msgid "Gallery Options"
+msgstr "Opcje galerii."
+
+#: gallery-plugin.php:629
+msgid "The size of the cover album for gallery"
+msgstr "Rozmiar okładki albumu"
+
+#: gallery-plugin.php:631
+#: gallery-plugin.php:639
+msgid "Image size name"
+msgstr "Nazwa rozmiaru obrazka"
+
+#: gallery-plugin.php:632
+#: gallery-plugin.php:640
+msgid "Width (in px)"
+msgstr "Szerokość (w px)"
+
+#: gallery-plugin.php:633
+#: gallery-plugin.php:641
+msgid "Height (in px)"
+msgstr "Wysokość (w px)"
+
+#: gallery-plugin.php:637
+msgid "Size for gallery image"
+msgstr "Rozmiar dla obrazka w galerii"
+
+#: gallery-plugin.php:645
+msgid "WordPress will create a copy of the post thumbnail with the specified dimensions when you upload a new photo."
+msgstr "WordPress stworzy kopię miniaturki notki według podanych rozmiarów podczas wgrywania nowego zdjęcia na serwer."
+
+#: gallery-plugin.php:648
+msgid "Count images in row"
+msgstr "Ilość obrazków w rzędzie"
+
+#: gallery-plugin.php:656
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: gallery-plugin.php:668
+msgid "FAQ"
+msgstr "FAQ "
+
+#: gallery-plugin.php:669
+msgid "Support"
+msgstr "Wsparcie"
+
+#: template/gallery-single-template.php:60
+msgid "Sorry - nothing to found."
+msgstr "Przykro nam - nic nie znaleziono."
+
+#: template/gallery-template.php:69
+msgid "See photo &raquo;"
+msgstr "Zobacz zdjęcia &raquo;"
+
+#~ msgid "Size for gallery album cover"
+#~ msgstr "Размер для "
