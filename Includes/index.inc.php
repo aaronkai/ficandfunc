@@ -7,7 +7,7 @@ $dir=opendir(".");
 $files=array();
 while (($file=readdir($dir)) !== false)
 {
-if ($file!=".git" and $file != "." and $file != ".." and $file != 
+if ($file!="BirdImages" and $file!=".git" and $file != "." and $file != ".." and $file != 
 "index.php" 
 and$file!= "Styles" and $file!="Includes" and $file!="Images")
 {
@@ -20,6 +20,7 @@ print '<ul>';
 foreach ($files as $file) {
 print '<li style="list-style-type: none"><a href="' . $file . '">' . $file . '</a></li>';
 }
+echo "<a href='http://www.thebespoken.com'>The Bespoken</a>";
 print '</ul>';
 ?>
 </div><!--end mod-->

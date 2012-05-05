@@ -1,0 +1,1648 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flash Album Gallery\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/flash-album-gallery\n"
+"POT-Creation-Date: 2009-10-28 10:59+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: sdfg <sdfg>\n"
+"Language-Team: Marko <marko.pozner@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: ROMANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: admin/addgallery.php:37
+#: admin/addmoreimages.php:36
+msgid "Upload failed!"
+msgstr "Încărcare eşuată!"
+
+#: admin/addgallery.php:49
+#: admin/addmoreimages.php:41
+#: admin/functions.php:453
+#: admin/functions.php:543
+msgid "No gallery selected !"
+msgstr "Nu galerie!"
+
+#: admin/addgallery.php:117
+#: admin/addmoreimages.php:88
+msgid "Image Files"
+msgstr "Fişiere imagine"
+
+#: admin/addgallery.php:136
+#: admin/addgallery.php:166
+#: admin/addmoreimages.php:107
+#: admin/addmoreimages.php:136
+msgid "remove"
+msgstr "scoate"
+
+#: admin/addgallery.php:137
+#: admin/addmoreimages.php:108
+msgid "Browse..."
+msgstr "Răsfoiţi ..."
+
+#: admin/addgallery.php:138
+#: admin/addgallery.php:203
+#: admin/addgallery.php:251
+#: admin/addmoreimages.php:109
+#: admin/addmoreimages.php:168
+msgid "Upload images"
+msgstr "încărca imagini"
+
+#: admin/addgallery.php:177
+msgid "Add new gallery"
+msgstr "Adauga noua galerie"
+
+#: admin/addgallery.php:178
+msgid "Upload Images"
+msgstr "încărca imagini"
+
+#: admin/addgallery.php:179
+#: admin/addgallery.php:258
+msgid "Import image folder"
+msgstr "Import imagine dosar"
+
+#: admin/addgallery.php:184
+msgid "Create a new gallery"
+msgstr "Creaţi o galerie nou"
+
+#: admin/addgallery.php:189
+msgid "New Gallery"
+msgstr "Noua Galerie foto"
+
+#: admin/addgallery.php:193
+msgid "Create a new , empty gallery below the folder"
+msgstr "Creaţi o galerie nou, gol de mai jos dosarul"
+
+#: admin/addgallery.php:194
+msgid "Allowed characters for file and folder names are"
+msgstr "Caractere permise pentru nume de fişiere şi foldere sunt"
+
+#: admin/addgallery.php:195
+msgid "Add gallery"
+msgstr "Adauga galerie"
+
+#: admin/addgallery.php:227
+#: admin/addmoreimages.php:156
+msgid "Upload image(s):"
+msgstr "Upload imagine:"
+
+#: admin/addgallery.php:231
+msgid "in to"
+msgstr "pentru a"
+
+#: admin/addgallery.php:232
+msgid "Choose gallery"
+msgstr "Alege galerie"
+
+#: admin/addgallery.php:246
+#: admin/addmoreimages.php:164
+msgid "The batch upload requires Adobe Flash 10, disable it if you have problems"
+msgstr "Lot nevoie de upload Adobe Flash 10, dezactivaţi-l dacă aveţi probleme"
+
+#: admin/addgallery.php:246
+#: admin/addmoreimages.php:164
+msgid "Disable flash upload"
+msgstr "Dezactivează Flash încărcare"
+
+#: admin/addgallery.php:248
+#: admin/addmoreimages.php:166
+msgid "Upload multiple files at once by ctrl/shift-selecting in dialog"
+msgstr "Încărca mai multe fişiere la o dată de către Ctrl / Shift-selectarea în dialog"
+
+#: admin/addgallery.php:248
+#: admin/addmoreimages.php:166
+msgid "Enable flash based upload"
+msgstr "Activează blitz pe baza de upload"
+
+#: admin/addgallery.php:263
+msgid "Import from Server path:"
+msgstr "Importul din calea Server:"
+
+#: admin/addgallery.php:264
+msgid "Toggle DIR Browser"
+msgstr "Toggle DIR Browser"
+
+#: admin/addgallery.php:267
+msgid " Please note : For safe-mode = ON you need to add the subfolder thumbs manually"
+msgstr "Vă rugăm să reţineţi: Pentru safe-mode = ON aveţi nevoie să adăugaţi subfolder poze mijlocii manual"
+
+#: admin/addgallery.php:270
+msgid "Import folder"
+msgstr "Import dosar"
+
+#: admin/addmoreimages.php:145
+#, php-format
+msgid "Upload More Images in \"%s\""
+msgstr "Încărcaţi mai multe imagini în \"%s\""
+
+#: admin/addmoreimages.php:150
+msgid "Add images to gallery"
+msgstr "Adăugaţi imagini la galeria"
+
+#: admin/addmoreimages.php:158
+#: admin/manage-sort.php:61
+msgid "Back to gallery"
+msgstr "Înapoi la galerie"
+
+#: admin/admin.php:23
+#: admin/admin.php:24
+msgid "Flash Album Gallery overview"
+msgstr "Flash Album Galerie listă"
+
+#: admin/admin.php:23
+msgid "FlAGallery"
+msgstr "FlAGallery"
+
+#: admin/admin.php:24
+msgid "Overview"
+msgstr "Prezentare generală"
+
+#: admin/admin.php:25
+msgid "FlAG Manage gallery"
+msgstr "FLAG Administreaza galerie"
+
+#: admin/admin.php:25
+msgid "Manage Galleries"
+msgstr "Administreaza Galerii"
+
+#: admin/admin.php:26
+msgid "FlAG Manage skins"
+msgstr "Marchează Administreaza piei"
+
+#: admin/admin.php:26
+#: admin/skins.php:312
+msgid "Skins"
+msgstr "Skins"
+
+#: admin/admin.php:27
+msgid "FlAG Change options"
+msgstr "Schimbare de pavilion opţiuni"
+
+#: admin/admin.php:27
+msgid "Options"
+msgstr "Opţiuni"
+
+#: admin/admin.php:77
+msgid "You do not have the correct permission"
+msgstr "Nu aveţi permisiunea corectă"
+
+#: admin/admin.php:78
+msgid "Unexpected Error"
+msgstr "Eroare neaşteptată"
+
+#: admin/admin.php:79
+msgid "A failure occurred"
+msgstr "Un eşec a avut loc"
+
+#: admin/flag_install.php:24
+msgid "Sorry, Flash Album Gallery works only with a role called administrator"
+msgstr "Ne pare rau, Galeria Flash Album funcţionează numai cu un rol numit administrator"
+
+#: admin/flag_install.php:121
+msgid "Flash Album Gallery : Tables could not created, please check your database settings"
+msgstr "Flash Album Gallery: Tabelele nu a putut crea, vă rugăm să verificaţi setările bazei de date"
+
+#: admin/functions.php:29
+msgid "No valid gallery name!"
+msgstr "Nu valabil nume de galerie!"
+
+#: admin/functions.php:36
+#: admin/functions.php:45
+#: admin/functions.php:59
+#: admin/functions.php:127
+#: admin/functions.php:134
+msgid "Directory"
+msgstr "Directory"
+
+#: admin/functions.php:36
+msgid "didn't exist. Please create first the main gallery folder "
+msgstr "nu exista. Vă rugăm să creaţi mai întâi dosarul galeria principala"
+
+#: admin/functions.php:37
+#: admin/functions.php:46
+msgid "Check this link, if you didn't know how to set the permission :"
+msgstr "Verifica acest link, dacă nu ştiţi cum să setaţi permisiunea:"
+
+#: admin/functions.php:45
+#: admin/functions.php:59
+msgid "is not writeable !"
+msgstr "nu este inscriptibil!"
+
+#: admin/functions.php:54
+#: admin/functions.php:64
+#: lib/core.php:99
+msgid "Unable to create directory "
+msgstr "Nu se poate crea directorul"
+
+#: admin/functions.php:68
+msgid "The server setting Safe-Mode is on !"
+msgstr "Serverul stabilirea Safe-Mode este pe!"
+
+#: admin/functions.php:69
+msgid "If you have problems, please create directory"
+msgstr "Dacă aveţi probleme, vă rugăm să creaţi directorul"
+
+#: admin/functions.php:70
+msgid "and the thumbnails directory"
+msgstr "şi directorul de miniaturi"
+
+#: admin/functions.php:70
+msgid "with permission 777 manually !"
+msgstr "cu permisiunea 777 manual!"
+
+#: admin/functions.php:88
+#: admin/functions.php:155
+#: admin/manage-images.php:139
+#: admin/manage.php:89
+#: admin/overview.php:220
+msgid "Gallery"
+msgid_plural "Galleries"
+msgstr[0] "Galerie"
+msgstr[1] "Galerii"
+
+#: admin/functions.php:88
+msgid "already exists"
+msgstr "există deja"
+
+#: admin/functions.php:93
+#, php-format
+msgid "Gallery '%1$s' successfully created.<br/>You can show this gallery with the tag %2$s.<br/>"
+msgstr "Galerie '%1$s' creat cu succes..<br/>Puteţi afişa această galerie cu tag-ul  %2$s.<br/>"
+
+#: admin/functions.php:96
+msgid "Edit gallery"
+msgstr "Editare galerie"
+
+#: admin/functions.php:127
+msgid "doesn&#96;t exist!"
+msgstr "nu exista!"
+
+#: admin/functions.php:134
+msgid "contains no pictures"
+msgstr "nu conţine imagini"
+
+#: admin/functions.php:152
+msgid "Database error. Could not add gallery!"
+msgstr "Baza de date de eroare. Nu se poate adăuga galerie!"
+
+#: admin/functions.php:155
+msgid "successfully created!"
+msgstr "creat cu succes!"
+
+#: admin/functions.php:184
+#: admin/functions.php:525
+#: admin/manage-images.php:212
+#: admin/manage.php:137
+msgid "Create new thumbnails"
+msgstr "Crearea de noi miniaturi"
+
+#: admin/functions.php:187
+msgid " picture(s) successfully added"
+msgstr "Poza (e) cu succes a adăugat"
+
+#: admin/functions.php:226
+#: admin/functions.php:305
+msgid "Object didn't contain correct data"
+msgstr "Obiectul nu conţin date corecte"
+
+#: admin/functions.php:231
+msgid " is not writeable "
+msgstr "nu este inscriptibil"
+
+#: admin/functions.php:312
+msgid " is not writeable"
+msgstr "nu este inscriptibil"
+
+#: admin/functions.php:461
+#: admin/functions.php:566
+msgid "Failure in database, no gallery path set !"
+msgstr "Eşecul în baza de date, nici o cale set de galerie!"
+
+#: admin/functions.php:482
+#: admin/functions.php:560
+msgid "is no valid image file!"
+msgstr "nu este un fişier imagine valid!"
+
+#: admin/functions.php:496
+#: admin/functions.php:666
+#: admin/functions.php:734
+#, php-format
+msgid "Unable to write to directory %s. Is this directory writable by the server?"
+msgstr "Imposibil de a scrie în directorul %s. Este acest director scriere de către server?"
+
+#: admin/functions.php:503
+#: admin/functions.php:583
+msgid "Error, the file could not moved to : "
+msgstr "Eroare, dosarul nu a putut sa mutat la:"
+
+#: admin/functions.php:508
+#: admin/functions.php:587
+msgid "Error, the file permissions could not set"
+msgstr "Eroare, permisiunile de fişiere nu au putut stabili"
+
+#: admin/functions.php:529
+msgid " Image(s) successfully added"
+msgstr "Imagine cu succes a adăugat"
+
+#: admin/functions.php:548
+msgid "Invalid upload. Error Code : "
+msgstr "Nevalid încărcaţi. Cod de eroare:"
+
+#: admin/functions.php:613
+#, php-format
+msgid "SAFE MODE Restriction in effect! You need to create the folder <strong>%s</strong> manually"
+msgstr "Restricţii modul de siguranţă în vigoare! Ai nevoie pentru a crea folderul <strong>%s</strong> manual"
+
+#: admin/functions.php:614
+#, php-format
+msgid "When safe_mode is on, PHP checks to see if the owner (%s) of the current script matches the owner (%s) of the file to be operated on by a file function or its directory"
+msgstr "Când safe_mode este, PHP verifică pentru a vedea dacă proprietarul (%s) din scriptul curent potriveşte proprietarul (%s) de dosar care urmează să fie operat de către o funcţie de fişier sau director de"
+
+#: admin/functions.php:660
+#: admin/functions.php:728
+msgid "The destination gallery does not exist"
+msgstr "Galeria de destinaţie nu există"
+
+#: admin/functions.php:691
+#, php-format
+msgid "Failed to move image %1$s to %2$s"
+msgstr "Nu a reuşit pentru a muta imaginea %1$s la %2$s"
+
+#: admin/functions.php:709
+#, php-format
+msgid "Moved %1$s picture(s) to gallery : %2$s ."
+msgstr "Mutat %1$s poza (e) la galerie: %2$s ."
+
+#: admin/functions.php:758
+#, php-format
+msgid "Failed to copy image %1$s to %2$s"
+msgstr "Nu a reuşit să copiaţi imaginea %1$s la %2$s"
+
+#: admin/functions.php:770
+#, php-format
+msgid "Failed to copy database row for picture %s"
+msgstr "Nu a reuşit să copiaţi rând baza de date pentru imagine %s"
+
+#: admin/functions.php:775
+#, php-format
+msgid "Image %1$s (%2$s) copied as image %3$s (%4$s) &raquo; The file already existed in the destination gallery."
+msgstr "Imagine %1$s (%2$s) copiate ca imagine %3$s (%4$s) &raquo; Fisierul exista deja în galeria de destinaţie."
+
+#: admin/functions.php:778
+#, php-format
+msgid "Image %1$s (%2$s) copied as image %3$s (%4$s)"
+msgstr "Imagine %1$s (%2$s) copiate ca imagine %3$s (%4$s)"
+
+#: admin/functions.php:787
+#, php-format
+msgid "Copied %1$s picture(s) to gallery: %2$s ."
+msgstr "Copiat %1$s poza (e) la galerie: %2$s ."
+
+#: admin/manage-galleries.php:19
+#: admin/manage-images.php:39
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: admin/manage-galleries.php:20
+#: admin/manage-images.php:40
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: admin/manage-galleries.php:27
+msgid "Gallery Overview"
+msgstr "Prezentare generală Galerie"
+
+#: admin/manage-galleries.php:30
+#: admin/manage-images.php:202
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr "Afiseaza de la %s#8211;%s de %s"
+
+#: admin/manage-galleries.php:42
+#: admin/manage-images.php:234
+#: admin/manage-images.php:243
+#: admin/manage-sort.php:98
+#: admin/manage-sort.php:107
+msgid "ID"
+msgstr "ID"
+
+#: admin/manage-galleries.php:43
+#: admin/manage-images.php:165
+#: lib/meta.php:338
+msgid "Title"
+msgstr "Titlu"
+
+#: admin/manage-galleries.php:44
+#: admin/manage-images.php:169
+#: admin/media-upload.php:185
+#: admin/skins.php:324
+#: admin/skins.php:332
+msgid "Description"
+msgstr "Descriere"
+
+#: admin/manage-galleries.php:45
+#: admin/manage-images.php:177
+#: lib/meta.php:339
+msgid "Author"
+msgstr "Autor"
+
+#: admin/manage-galleries.php:46
+msgid "Quantity"
+msgstr "Cantitate"
+
+#: admin/manage-galleries.php:47
+#: admin/skins.php:23
+#: admin/skins.php:325
+#: admin/skins.php:333
+msgid "Action"
+msgstr "Acţiune"
+
+#: admin/manage-galleries.php:67
+msgid "Edit"
+msgstr "Edita"
+
+#: admin/manage-galleries.php:76
+msgid "Delete this gallery ?"
+msgstr "Ştergeţi această galerie?"
+
+#: admin/manage-galleries.php:76
+#: admin/manage-images.php:293
+#: admin/skins.php:383
+msgid "Delete"
+msgstr "Ştergeţi"
+
+#: admin/manage-galleries.php:83
+#: admin/manage-images.php:313
+#: admin/manage-sort.php:139
+msgid "No entries found"
+msgstr "Nu există înregistrări găsit"
+
+#: admin/manage-images.php:16
+msgid "Gallery not found."
+msgstr "Galeria nu a fost găsit."
+
+#: admin/manage-images.php:22
+msgid "Sorry, you have no access here"
+msgstr "Ne pare rău, nu aveţi acces aici"
+
+#: admin/manage-images.php:107
+msgid "No images selected"
+msgstr "Nu există imagini selectate"
+
+#: admin/manage-images.php:121
+#, php-format
+msgid ""
+"You are about to start the bulk edit for %s images \n"
+" \n"
+" 'Cancel' to stop, 'OK' to proceed."
+msgstr ""
+"Sunteţi pe cale să înceapă de editare în vrac pentru %s imagini \n"
+"\n"
+"\"Anulaţi\" pentru a opri, \"OK\" pentru a continua."
+
+#: admin/manage-images.php:141
+msgid "Choose another gallery"
+msgstr "Alegeţi o altă galerie"
+
+#: admin/manage-images.php:161
+msgid "Gallery settings"
+msgstr "Galerie setările"
+
+#: admin/manage-images.php:173
+msgid "Path"
+msgstr "Cale"
+
+#: admin/manage-images.php:191
+msgid "Scan Folder for new images"
+msgstr "Scanare folder pentru imagini noi"
+
+#: admin/manage-images.php:192
+#: admin/manage-images.php:225
+#: admin/manage-images.php:319
+#: admin/settings.php:100
+#: admin/settings.php:133
+#: admin/settings.php:157
+#: admin/settings.php:187
+#: admin/settings.php:313
+msgid "Save Changes"
+msgstr "Salvaţi Modificările"
+
+#: admin/manage-images.php:211
+msgid "No action"
+msgstr "Nicio acţiune"
+
+#: admin/manage-images.php:213
+#: admin/manage.php:141
+msgid "Resize images"
+msgstr "Redimensionarea imaginilor"
+
+#: admin/manage-images.php:214
+msgid "Delete images"
+msgstr "Sterge imagini"
+
+#: admin/manage-images.php:215
+msgid "Import metadata"
+msgstr "Import de metadate"
+
+#: admin/manage-images.php:216
+msgid "Copy to..."
+msgstr "Copiaţi în ..."
+
+#: admin/manage-images.php:217
+msgid "Move to..."
+msgstr "Mutaţi în ..."
+
+#: admin/manage-images.php:219
+#: admin/manage-images.php:349
+msgid "OK"
+msgstr "OK"
+
+#: admin/manage-images.php:221
+msgid "Sort gallery"
+msgstr "Sortare galerie"
+
+#: admin/manage-images.php:223
+msgid "Add Images"
+msgstr "Adauga Imagini"
+
+#: admin/manage-images.php:235
+#: admin/manage-images.php:244
+#: admin/media-upload.php:206
+msgid "Thumbnail"
+msgstr "Miniatură"
+
+#: admin/manage-images.php:236
+#: admin/manage-images.php:245
+msgid "Filename / Date"
+msgstr "Nume / Data"
+
+#: admin/manage-images.php:237
+#: admin/manage-images.php:246
+msgid "Alt & Title Text / Description"
+msgstr "Alt & Titlu Text / Descriere"
+
+#: admin/manage-images.php:286
+msgid "Size: "
+msgstr "Dimensiune:"
+
+#: admin/manage-images.php:291
+#, php-format
+msgid "View \"%s\""
+msgstr "Vedere \"%s\""
+
+#: admin/manage-images.php:291
+msgid "View"
+msgstr "Vedere"
+
+#: admin/manage-images.php:292
+msgid "Customize thumbnail"
+msgstr "Particularizarea miniatură"
+
+#: admin/manage-images.php:292
+msgid "Edit thumb"
+msgstr "Editare Thumb"
+
+#: admin/manage-images.php:293
+#: admin/skins.php:383
+#, php-format
+msgid "Delete \"%s\""
+msgstr "Sterge \"%s\""
+
+#: admin/manage-images.php:333
+msgid "Select the destination gallery:"
+msgstr "Selectaţi galeria de destinaţie:"
+
+#: admin/manage-images.php:351
+msgid "Cancel"
+msgstr "Anula"
+
+#: admin/manage-sort.php:31
+msgid "Sort order changed"
+msgstr "Ordinea de sortare a schimbat"
+
+#: admin/manage-sort.php:54
+msgid "Sort Gallery"
+msgstr "Sortare Galerie"
+
+#: admin/manage-sort.php:58
+#: admin/manage-sort.php:145
+msgid "Update Sort Order"
+msgstr "Actualizare Ordine de sortare"
+
+#: admin/manage-sort.php:99
+#: admin/manage-sort.php:108
+msgid "Thumb"
+msgstr "Thumb"
+
+#: admin/manage-sort.php:100
+#: admin/manage-sort.php:109
+msgid "Filename"
+msgstr "Nume"
+
+#: admin/manage-sort.php:101
+#: admin/manage-sort.php:110
+msgid "Date"
+msgstr "Data"
+
+#: admin/manage-sort.php:102
+#: admin/manage-sort.php:111
+msgid "Alt &amp; Title Text"
+msgstr "Alt &amp; Titlu Text"
+
+#: admin/manage.php:42
+#: admin/manage_thumbnail.php:17
+#: admin/manage_thumbnail.php:20
+msgid "Cheatin&#8217; uh?"
+msgstr "Cheatin&#8217; uh?"
+
+#: admin/manage.php:89
+#: admin/manage.php:111
+#: admin/skins.php:226
+msgid "deleted successfully"
+msgstr "şters cu succes"
+
+#: admin/manage.php:111
+msgid "Picture"
+msgstr "Imagine"
+
+#: admin/manage.php:158
+msgid "Pictures deleted successfully "
+msgstr "Poze şters cu succes"
+
+#: admin/manage.php:164
+msgid "Import metadata finished"
+msgstr "Metadate Import terminat"
+
+#: admin/manage.php:172
+msgid "Operation successful. Please clear your browser cache."
+msgstr "Operaţiunea de succes. Vă rugăm să goliţi cache-ul browser-ului."
+
+#: admin/manage.php:216
+msgid "Update successful"
+msgstr "Actualizare de succes"
+
+#: admin/manage_thumbnail.php:114
+msgid "Select with the mouse the area for the new thumbnail."
+msgstr "Selectaţi cu mouse-ul pentru zona miniatura nou."
+
+#: admin/manage_thumbnail.php:128
+msgid "Thumbnail updated"
+msgstr "Miniatură actualizat"
+
+#: admin/manage_thumbnail.php:133
+msgid "Error updating thumbnail."
+msgstr "Eroare la actualizarea miniatură."
+
+#: admin/manage_thumbnail.php:150
+msgid "Select the area for the thumbnail from the picture on the left."
+msgstr "Selectaţi zona de miniatura de la imaginea din stânga."
+
+#: admin/manage_thumbnail.php:165
+msgid "Update"
+msgstr "Actualizaţi"
+
+#: admin/media-upload.php:9
+msgid "FlAG Gallery"
+msgstr "FlAG Gallery"
+
+#: admin/media-upload.php:126
+msgid "No gallery"
+msgstr "Nu galerie"
+
+#: admin/media-upload.php:138
+msgid "Select &#187;"
+msgstr "Selecta &#187;"
+
+#: admin/media-upload.php:169
+msgid "Show"
+msgstr "Arăta"
+
+#: admin/media-upload.php:170
+msgid "Hide"
+msgstr "Ascunde"
+
+#: admin/media-upload.php:175
+msgid "Image ID:"
+msgstr "Imagine ID-ul:"
+
+#: admin/media-upload.php:181
+msgid "Alt/Title text"
+msgstr "Alt/Titlu Text"
+
+#: admin/media-upload.php:189
+msgid "Alignment"
+msgstr "Aliniere"
+
+#: admin/media-upload.php:192
+msgid "None"
+msgstr "Nici unul"
+
+#: admin/media-upload.php:194
+msgid "Left"
+msgstr "Stânga"
+
+#: admin/media-upload.php:196
+msgid "Center"
+msgstr "Centru"
+
+#: admin/media-upload.php:198
+msgid "Right"
+msgstr "Dreapta"
+
+#: admin/media-upload.php:202
+msgid "Size"
+msgstr "Dimensiune"
+
+#: admin/media-upload.php:208
+msgid "Full size"
+msgstr "Full size"
+
+#: admin/media-upload.php:216
+msgid "Insert into Post"
+msgstr "Introduceţi în post"
+
+#: admin/media-upload.php:226
+msgid "Save all changes"
+msgstr "Salvaţi toate modificările"
+
+#: admin/overview.php:13
+msgid "FlAG Gallery Overview"
+msgstr "FLAG Galerie Prezentare generală"
+
+#: admin/overview.php:106
+msgid "Reset all settings to default parameter"
+msgstr "Resetaţi toate setările implicite pentru parametru"
+
+#: admin/overview.php:117
+msgid "Uninstall sucessful ! Now delete the plugin and enjoy your life ! Good luck !"
+msgstr "Dezinstalare sucessful! Şterge acum plug-in şi te bucuri de viata ta! Mult noroc!"
+
+#: admin/overview.php:125
+msgid "Plugin Home"
+msgstr "Plugin Acasă"
+
+#: admin/overview.php:130
+msgid "Plugin Comments"
+msgstr "Plugin Comentarii"
+
+#: admin/overview.php:135
+msgid "Rate Plugin"
+msgstr "Rata de Plugin"
+
+#: admin/overview.php:140
+msgid "My Plugins"
+msgstr "Mele Plugin-uri"
+
+#: admin/overview.php:145
+msgid "Contact Me"
+msgstr "Contactaţi-mă"
+
+#: admin/overview.php:155
+msgid "Reset settings"
+msgstr "Resetaţi setările"
+
+#: admin/overview.php:155
+msgid ""
+"Reset all options to default settings ?\\n"
+"\\n"
+"Choose [Cancel] to Stop, [OK] to proceed.\\n"
+msgstr ""
+"Reseta toate opţiunile la setările implicite ?\\n"
+"\\n"
+"Selectaţi [Anula] pentru a opri, [OK] pentru a continua.\\n"
+
+#: admin/overview.php:158
+msgid "Uninstall plugin"
+msgstr "Dezinstalare Plugin"
+
+#: admin/overview.php:158
+msgid ""
+"You are about to Uninstall this plugin from WordPress.\\n"
+"This action is not reversible.\\n"
+"\\n"
+"Choose [Cancel] to Stop, [OK] to Uninstall.\\n"
+msgstr ""
+"Sunteţi pe cale să dezinstalaţi acest plugin de WordPress.\\n"
+"Această acţiune nu este reversibilă.\\n"
+"\\n"
+"Selectaţi [Anula] pentru a opri, [OK] pentru a Uninstall.\\n"
+" "
+
+#: admin/overview.php:184
+msgid "What's new at PhotoGalleryCreator.com"
+msgstr "Ce este nou la PhotoGalleryCreator.com"
+
+#: admin/overview.php:208
+msgid "At a Glance"
+msgstr "La un scurt"
+
+#: admin/overview.php:214
+msgid "Image"
+msgid_plural "Images"
+msgstr[0] "Imagine"
+msgstr[1] "Imagine"
+
+#: admin/overview.php:229
+msgid "Upload pictures"
+msgstr "Incarca poze"
+
+#: admin/overview.php:230
+msgid "Here you can control your images and galleries."
+msgstr "Aici puteţi controla imaginile şi galerii."
+
+#: admin/overview.php:232
+msgid "Gallery Administrator"
+msgstr "Galerie Administrator"
+
+#: admin/overview.php:232
+msgid "Gallery Editor"
+msgstr "Galerie Editor"
+
+#: admin/overview.php:233
+#, php-format
+msgid "You currently have %s rights."
+msgstr "Aveţi în prezent au %s drepturile."
+
+#: admin/overview.php:239
+msgid "Setup Box"
+msgstr "Setup Box"
+
+#: admin/overview.php:240
+msgid "News Box"
+msgstr "Stiri Box"
+
+#: admin/overview.php:241
+msgid "Welcome to FlAG Gallery !"
+msgstr "Bine ati venit la Galeria de steag!"
+
+#: admin/overview.php:242
+msgid "Server Settings"
+msgstr "Setările serverului"
+
+#: admin/overview.php:243
+msgid "Graphic Library"
+msgstr "Biblioteca grafică"
+
+#: admin/overview.php:259
+msgid "No GD support"
+msgstr "HG nr de sprijin"
+
+#: admin/overview.php:266
+#: admin/overview.php:295
+#: admin/overview.php:297
+#: admin/overview.php:299
+msgid "Yes"
+msgstr "Da"
+
+#: admin/overview.php:268
+#: admin/overview.php:295
+#: admin/overview.php:297
+#: admin/overview.php:299
+msgid "No"
+msgstr "Nu"
+
+#: admin/overview.php:279
+msgid "Not set"
+msgstr "Nu este stabilit"
+
+#: admin/overview.php:281
+#: admin/overview.php:283
+msgid "On"
+msgstr "Pe"
+
+#: admin/overview.php:281
+#: admin/overview.php:283
+msgid "Off"
+msgstr "De pe"
+
+#: admin/overview.php:285
+#: admin/overview.php:287
+#: admin/overview.php:289
+#: admin/overview.php:291
+#: admin/overview.php:293
+msgid "N/A"
+msgstr "N/A"
+
+#: admin/overview.php:293
+msgid " MByte"
+msgstr " MByte"
+
+#: admin/overview.php:302
+msgid "Operating System"
+msgstr "Sistem de operare"
+
+#: admin/overview.php:303
+msgid "Server"
+msgstr "Server"
+
+#: admin/overview.php:304
+msgid "Memory usage"
+msgstr "Utilizarea memoriei"
+
+#: admin/overview.php:305
+msgid "MYSQL Version"
+msgstr "Versiunea MYSQL"
+
+#: admin/overview.php:306
+msgid "SQL Mode"
+msgstr "SQL Mode"
+
+#: admin/overview.php:307
+msgid "PHP Version"
+msgstr "Versiunea PHP"
+
+#: admin/overview.php:308
+msgid "PHP Safe Mode"
+msgstr "PHP Seif Mod"
+
+#: admin/overview.php:309
+msgid "PHP Allow URL fopen"
+msgstr "PHP permite URL fopen"
+
+#: admin/overview.php:310
+msgid "PHP Memory Limit"
+msgstr "PHP Limita de memorie"
+
+#: admin/overview.php:311
+msgid "PHP Max Upload Size"
+msgstr "PHP Max Upload Dimensiune"
+
+#: admin/overview.php:312
+msgid "PHP Max Post Size"
+msgstr "PHP Max Mesaj Dimensiune"
+
+#: admin/overview.php:313
+msgid "PHP Max Script Execute Time"
+msgstr "Max PHP Script Executare Ora"
+
+#: admin/overview.php:314
+msgid "PHP Exif support"
+msgstr "PHP Exif sprijin"
+
+#: admin/overview.php:315
+msgid "PHP IPTC support"
+msgstr "PHP IPTC de sprijin"
+
+#: admin/overview.php:316
+msgid "PHP XML support"
+msgstr "PHP XML de sprijin"
+
+#: admin/settings.php:32
+msgid "Update Successfully"
+msgstr "Actualizaţi succes"
+
+#: admin/settings.php:50
+msgid "Updated capabilities"
+msgstr "Capacităţile actualizate"
+
+#: admin/settings.php:61
+#: admin/settings.php:74
+msgid "General Options"
+msgstr "Opţiuni generale"
+
+#: admin/settings.php:62
+msgid "Thumbnails"
+msgstr "Miniaturi"
+
+#: admin/settings.php:63
+msgid "Images"
+msgstr "Imagini"
+
+#: admin/settings.php:64
+#: admin/settings.php:164
+msgid "Sorting"
+msgstr "Triere"
+
+#: admin/settings.php:66
+#: admin/settings.php:223
+msgid "Colors"
+msgstr "Culori"
+
+#: admin/settings.php:68
+msgid "Roles"
+msgstr "Roluri"
+
+#: admin/settings.php:80
+msgid "Gallery path"
+msgstr "Galerie cale"
+
+#: admin/settings.php:82
+msgid "This is the default path for all galleries"
+msgstr "Aceasta este calea implicită pentru toate galeriile"
+
+#: admin/settings.php:85
+msgid "Default flash size (W x H)"
+msgstr "Dimensiunea implicită Flash (W x H)"
+
+#: admin/settings.php:90
+msgid "Delete image files"
+msgstr "Ştergeţi fişierele imagine"
+
+#: admin/settings.php:92
+msgid "Delete files, when removing a gallery in the database"
+msgstr "Ştergerea fişierelor, atunci când a scoate o galerie în baza de date"
+
+#: admin/settings.php:95
+msgid "Activate Media RSS feed"
+msgstr "Activare Media RSS feed"
+
+#: admin/settings.php:97
+msgid "A RSS feed will be added to you blog header."
+msgstr "Un feed RSS va fi adăugat pentru a vă blog antet."
+
+#: admin/settings.php:107
+msgid "Thumbnail settings"
+msgstr "Thumbnail setările"
+
+#: admin/settings.php:111
+msgid "Please note : If you change the settings, you need to recreate the thumbnails under -> Manage Gallery ."
+msgstr "Vă rugăm să reţineţi: Dacă modificaţi setările, aveţi nevoie pentru a recrea în miniaturile -> Gestionare Galerie."
+
+#: admin/settings.php:114
+msgid "Width x Height (in pixel)"
+msgstr "Lăţime x Înălţime (în pixeli)"
+
+#: admin/settings.php:116
+msgid "These values are maximum values "
+msgstr "Aceste valori sunt valori maxime"
+
+#: admin/settings.php:119
+msgid "Set fix dimension"
+msgstr "Setaţi dimensiunea fix"
+
+#: admin/settings.php:121
+msgid "Ignore the aspect ratio, no portrait thumbnails"
+msgstr "Ignora raportul de aspect, nu miniaturi portret"
+
+#: admin/settings.php:124
+msgid "Crop square thumbnail from image"
+msgstr "Miniatura Setare pătrat din imagine"
+
+#: admin/settings.php:126
+msgid "Create square thumbnails, use only the width setting :"
+msgstr "Crearea miniaturi pătraţi, folosiţi numai setarea lăţimea:"
+
+#: admin/settings.php:129
+msgid "Thumbnail quality"
+msgstr "Miniatură de calitate"
+
+#: admin/settings.php:140
+msgid "Image settings"
+msgstr "Setările de imagine"
+
+#: admin/settings.php:146
+msgid "Resize Images"
+msgstr "Redimensionarea Imagini"
+
+#: admin/settings.php:149
+msgid "Width x Height (in pixel). Flash Album Gallery will keep ratio size"
+msgstr "Lăţime x Înălţime (în pixeli). Galerie Flash album va păstra dimensiunea raportului"
+
+#: admin/settings.php:152
+msgid "Image quality"
+msgstr "Imagini de calitate"
+
+#: admin/settings.php:168
+msgid "Sort options"
+msgstr "Opţiuni de sortare"
+
+#: admin/settings.php:171
+msgid "Sort thumbnails"
+msgstr "Sortare miniaturi"
+
+#: admin/settings.php:173
+msgid "Custom order"
+msgstr "Personalizat pentru"
+
+#: admin/settings.php:174
+msgid "Image ID"
+msgstr "Imagine ID-ul"
+
+#: admin/settings.php:175
+msgid "File name"
+msgstr "Nume de fişier"
+
+#: admin/settings.php:176
+msgid "Alt / Title text"
+msgstr "Alt / Titlu Text"
+
+#: admin/settings.php:177
+msgid "Date / Time"
+msgstr "Data / Ora"
+
+#: admin/settings.php:181
+msgid "Sort direction"
+msgstr "Sortare dupa"
+
+#: admin/settings.php:182
+msgid "Ascending"
+msgstr "Ascendent"
+
+#: admin/settings.php:183
+msgid "Descending"
+msgstr "Descendent"
+
+#: admin/settings.php:227
+msgid "Background Color"
+msgstr "Culoarea de fundal"
+
+#: admin/settings.php:233
+msgid "Buttons Background Color"
+msgstr "Butoane de fundal de culoare"
+
+#: admin/settings.php:239
+msgid "Buttons Text Color"
+msgstr "Butoane Culoare text"
+
+#: admin/settings.php:250
+msgid "Category Buttons Color"
+msgstr "Categorie butoanele de culoare"
+
+#: admin/settings.php:261
+msgid "Category Buttons Text Color"
+msgstr "Categorie Butoane Culoare text"
+
+#: admin/settings.php:272
+msgid "Thumbs Rollover Color"
+msgstr "Thumbs Rollover Culoare"
+
+#: admin/settings.php:283
+msgid "Main Title"
+msgstr "Titlul principal"
+
+#: admin/settings.php:289
+msgid "Category Title"
+msgstr "Categorie Titlu"
+
+#: admin/settings.php:295
+msgid "Item Background"
+msgstr "Postul de fundal"
+
+#: admin/settings.php:301
+msgid "Item Title"
+msgstr "Titlu articol"
+
+#: admin/settings.php:307
+msgid "Item Description"
+msgstr "Descriere articol"
+
+#: admin/settings.php:322
+msgid "Roles / capabilities"
+msgstr "Roluri / capacităţile"
+
+#: admin/settings.php:323
+msgid "Select the lowest role which should be able to access the follow capabilities. Flash Album Gallery supports the standard roles from WordPress."
+msgstr "Selectaţi cea mai mică rolul pe care ar trebui să poată să acceseze capacităţile de urma. Galerie Flash Album susţine rolurile standard de WordPress."
+
+#: admin/settings.php:326
+msgid "Main Flash Album Gallery overview"
+msgstr "Principalul Flash Album Galerie listă"
+
+#: admin/settings.php:330
+msgid "Use TinyMCE Button / Upload tab"
+msgstr "Utilizaţi butonul TinyMCE / Upload fila"
+
+#: admin/settings.php:334
+msgid "Add gallery / Upload images"
+msgstr "Adauga galerie / Incarca imagini"
+
+#: admin/settings.php:338
+msgid "Manage gallery"
+msgstr "Administreaza galerie"
+
+#: admin/settings.php:342
+msgid "Manage others gallery"
+msgstr "Administreaza altele galerie"
+
+#: admin/settings.php:346
+msgid "Change skin"
+msgstr "Modificarea piele"
+
+#: admin/settings.php:350
+msgid "Add skins"
+msgstr "Adauga piei"
+
+#: admin/settings.php:354
+msgid "Delete skins"
+msgstr "Stergeţi piei"
+
+#: admin/settings.php:358
+msgid "Change options"
+msgstr "Modificarea opţiunilor"
+
+#: admin/settings.php:362
+msgid "Update capabilities"
+msgstr "Actualizaţi capacităţile"
+
+#: admin/skins.php:20
+#: admin/skins.php:28
+msgid "Add new skin"
+msgstr "Adauga noua piele"
+
+#: admin/skins.php:21
+msgid "Want more skins?"
+msgstr "Vrei mai multe skin-uri?"
+
+#: admin/skins.php:29
+msgid "Install a skin in .zip format"
+msgstr "Instalaţi o piele în format zip."
+
+#: admin/skins.php:30
+msgid "If you have a skin in a .zip format, You may install it by uploading it here."
+msgstr "Dacă aveţi o piele într-un format zip., Puteţi instala prin încărcarea acestuia aici."
+
+#: admin/skins.php:34
+msgid "Install Now"
+msgstr "Instalaţi acum"
+
+#: admin/skins.php:39
+msgid "More skins"
+msgstr "Mai multe teme"
+
+#: admin/skins.php:40
+msgid "If you want more skins, You may get it at."
+msgstr "Dacă doriţi mai multe skin-uri, puteţi obţine de la ea."
+
+#: admin/skins.php:47
+msgid "Install info"
+msgstr "Instalaţi info"
+
+#: admin/skins.php:58
+#: admin/skins.php:88
+msgid "No skin Specified"
+msgstr "Nu pielii specificată"
+
+#: admin/skins.php:61
+#, php-format
+msgid "Installing Skin from file: %s"
+msgstr "Instalarea pielea de fişier: %s"
+
+#: admin/skins.php:70
+#, php-format
+msgid "The uploaded file could not be moved to %s."
+msgstr "Fişierul încărcat nu a putut fi mutat la %s"
+
+#: admin/skins.php:117
+msgid "Installation Failed"
+msgstr "Instalarea nu a reuşit"
+
+#: admin/skins.php:119
+msgid "The skin installed successfully."
+msgstr "Pielea instalat cu succes."
+
+#: admin/skins.php:122
+#: admin/skins.php:369
+msgid "Activate this skin"
+msgstr "Activaţi această piele"
+
+#: admin/skins.php:122
+msgid "Activate Skin"
+msgstr "Activaţi pielii"
+
+#: admin/skins.php:123
+msgid "Goto skin overview"
+msgstr "Du-te la piele Prezentare generală"
+
+#: admin/skins.php:123
+msgid "Skin overview"
+msgstr "Prezentare generală a pielii"
+
+#: admin/skins.php:126
+msgid "Actions:"
+msgstr "Acţiuni:"
+
+#: admin/skins.php:145
+msgid "Could not access filesystem."
+msgstr "Nu am putut accesa sistemul de fişiere."
+
+#: admin/skins.php:148
+msgid "Filesystem error"
+msgstr "Sistem de fişiere de eroare"
+
+#: admin/skins.php:154
+msgid "Unable to locate FlAGallery Skin directory."
+msgstr "Imposibil de a localiza directorul de piele FlAGallery."
+
+#: admin/skins.php:159
+msgid "Unable to locate WordPress Content directory (wp-content)."
+msgstr "Imposibil de a localiza directorul de conţinut WordPress (WP-conţinut)."
+
+#: admin/skins.php:165
+msgid "Install package not available."
+msgstr "Instalaţi pachetul nu este disponibil."
+
+#: admin/skins.php:173
+msgid "Unpacking the skin package"
+msgstr "Despachetarea pachetul de piele"
+
+#: admin/skins.php:190
+msgid "Folder already exists."
+msgstr "Dosarul există deja."
+
+#: admin/skins.php:193
+msgid "Installing the skin"
+msgstr "Instalarea piele"
+
+#: admin/skins.php:226
+#: admin/skins.php:281
+#: admin/skins.php:323
+#: admin/skins.php:331
+msgid "Skin"
+msgstr "Skin"
+
+#: admin/skins.php:228
+msgid "Can't find skin directory "
+msgstr "Nu pot găsi directorul de piele"
+
+#: admin/skins.php:228
+msgid ". Try delete it manualy via ftp"
+msgstr ". Încercaţi să-l ştergeţi manuala prin FTP"
+
+#: admin/skins.php:231
+msgid "You need activate another skin before delete it"
+msgstr "Ai nevoie de un alt activaţi pielea înainte de a şterge"
+
+#: admin/skins.php:234
+msgid "You do not have sufficient permissions to delete skins of GRAND FlAGallery."
+msgstr "Nu aveţi permisiuni suficiente pentru a şterge pielea de FlAGallery GRAND."
+
+#: admin/skins.php:281
+msgid "activated successfully"
+msgstr "activat cu succes"
+
+#: admin/skins.php:342
+msgid "No skins to show"
+msgstr "Nu piei pentru a demonstra"
+
+#: admin/skins.php:355
+#, php-format
+msgid "Version %s"
+msgstr "Versiune %s"
+
+#: admin/skins.php:359
+msgid "Visit author homepage"
+msgstr "Vizitaţi pagina autor"
+
+#: admin/skins.php:360
+#, php-format
+msgid "By %s"
+msgstr "De %s"
+
+#: admin/skins.php:363
+msgid "Visit skin site"
+msgstr "Vizitati site-ul pielii"
+
+#: admin/skins.php:369
+msgid "Activate"
+msgstr "Activa"
+
+#: admin/skins.php:371
+msgid "Activated"
+msgstr "Activat"
+
+#: admin/skins.php:383
+msgid "Delete this skin"
+msgstr "Ştergeţi acest piele"
+
+#: admin/tinymce/tinymce.php:114
+#: admin/tinymce/window.php:16
+#: admin/tinymce/window.php:26
+msgid "Insert Flash Album with one or more galleries"
+msgstr "Introduceţi Flash album cu unul sau mai multe galerii"
+
+#: admin/tinymce/window.php:8
+msgid "You are not allowed to be here"
+msgstr "Nu vi se permite să fie aici"
+
+#: admin/tinymce/window.php:42
+msgid "Album Name"
+msgstr "Nume album"
+
+#: admin/tinymce/window.php:46
+msgid "Select galleries"
+msgstr "Selectaţi galerii"
+
+#: admin/tinymce/window.php:46
+msgid "(album categories)"
+msgstr "(categorii de album)"
+
+#: admin/tinymce/window.php:74
+msgid "custom size"
+msgstr "dimensiune particularizată"
+
+#: admin/tinymce/window.php:85
+#: admin/tinymce/window.php:128
+msgid "Insert"
+msgstr "Insera"
+
+#: admin/upgrade.php:20
+msgid "Upgrade database structure..."
+msgstr "Upgrade structura bazei de date ..."
+
+#: admin/upgrade.php:49
+#: admin/upgrade.php:59
+msgid "finished"
+msgstr "terminat"
+
+#: admin/upgrade.php:57
+msgid "Import date and time information..."
+msgstr "Importul data şi informaţii în timp ..."
+
+#: admin/upgrade.php:130
+#: admin/upgrade.php:149
+msgid "Upgrade GRAND FlAGallery"
+msgstr "Actualizează GRAND FlAGallery"
+
+#: admin/upgrade.php:131
+msgid "The script detect that you upgrade from a older version."
+msgstr "Script-ul detectează că faceţi upgrade de la o versiune mai veche."
+
+#: admin/upgrade.php:132
+msgid "Your database tables for GRAND FlAGallery is out-of-date, and must be upgraded before you can continue."
+msgstr "Tabele de baze de date pentru Grand FlAGallery este în afara-din-data, si trebuie actualizat înainte de a putea continua."
+
+#: admin/upgrade.php:133
+msgid "If you would like to downgrade later, please make first a complete backup of your database and the images."
+msgstr "Dacă doriţi să downgrade mai târziu, vă rugăm să faceţi mai întâi o copie de rezervă completă a bazei de date şi imagini."
+
+#: admin/upgrade.php:134
+msgid "The upgrade process may take a while, so please be patient."
+msgstr "Procesul de actualizare poate dura un timp, va rugam sa astfel încât să fie pacient."
+
+#: admin/upgrade.php:135
+msgid "Start upgrade now"
+msgstr "Începeţi acum upgrade"
+
+#: admin/upgrade.php:151
+msgid "Upgrade sucessful"
+msgstr "Actualizează sucessful"
+
+#: admin/upgrade.php:152
+msgid "Continue"
+msgstr "Continua"
+
+#: lib/core.php:199
+#, php-format
+msgid "Note : Based on your server memory limit you should not upload larger images then <strong>%d x %d</strong> pixel"
+msgstr "Notă: Bazat pe server-ul dvs. limita de memorie, nu trebuie să încărcaţi imagini mai mari de <strong>%d x %d</strong> pixel"
+
+#: lib/meta.php:73
+msgid " mm"
+msgstr " mm"
+
+#: lib/meta.php:79
+msgid " sec"
+msgstr " sec"
+
+#: lib/meta.php:329
+msgid "Aperture"
+msgstr "Deschidere"
+
+#: lib/meta.php:330
+#: lib/meta.php:355
+msgid "Credit"
+msgstr "Credit"
+
+#: lib/meta.php:331
+msgid "Camera"
+msgstr "Aparat foto"
+
+#: lib/meta.php:332
+msgid "Caption"
+msgstr "Caption"
+
+#: lib/meta.php:333
+msgid "Date/Time"
+msgstr "Data/Ora"
+
+#: lib/meta.php:334
+msgid "Copyright"
+msgstr "Copyright"
+
+#: lib/meta.php:335
+msgid "Focal length"
+msgstr "Lungime focala"
+
+#: lib/meta.php:336
+msgid "ISO"
+msgstr "ISO"
+
+#: lib/meta.php:337
+msgid "Shutter speed"
+msgstr "Viteza de închidere"
+
+#: lib/meta.php:340
+msgid "Tags"
+msgstr "Tags"
+
+#: lib/meta.php:341
+msgid "Subject"
+msgstr "Subiect"
+
+#: lib/meta.php:342
+msgid "Make"
+msgstr "Face"
+
+#: lib/meta.php:343
+msgid "Edit Status"
+msgstr "Editarea stãrii"
+
+#: lib/meta.php:344
+msgid "Category"
+msgstr "Categorie"
+
+#: lib/meta.php:345
+msgid "Keywords"
+msgstr "Cuvinte cheie"
+
+#: lib/meta.php:346
+msgid "Date Created"
+msgstr "Creat la data"
+
+#: lib/meta.php:347
+msgid "Time Created"
+msgstr "Creat de timp"
+
+#: lib/meta.php:348
+msgid "Author Position"
+msgstr "Autor Poziţia"
+
+#: lib/meta.php:349
+msgid "City"
+msgstr "Oraş"
+
+#: lib/meta.php:350
+msgid "Location"
+msgstr "Locaţie"
+
+#: lib/meta.php:351
+msgid "Province/State"
+msgstr "Provincia / de stat"
+
+#: lib/meta.php:352
+msgid "Country code"
+msgstr "Prefixul ţării"
+
+#: lib/meta.php:353
+msgid "Country"
+msgstr "Tară"
+
+#: lib/meta.php:354
+msgid "Headline"
+msgstr "Titlu"
+
+#: lib/meta.php:356
+msgid "Source"
+msgstr "Sursă"
+
+#: lib/meta.php:357
+msgid "Copyright Notice"
+msgstr "Termeni si conditii Copyright"
+
+#: lib/meta.php:358
+msgid "Contact"
+msgstr "Contactati"
+
+#: lib/meta.php:359
+msgid "Last modified"
+msgstr "Ultima modificare"
+
+#: lib/meta.php:360
+msgid "Program tool"
+msgstr "Programul de instrument"
+
+#: lib/meta.php:361
+msgid "Format"
+msgstr "Format"
+
+#: lib/shortcodes.php:71
+#: lib/shortcodes.php:86
+msgid "[Gallery not found]"
+msgstr "[Galerie nu a gasit]"
+
+#: lib/shortcodes.php:80
+#, php-format
+msgid "[Gallery %s not found]"
+msgstr "[Gallerie %s nu a gasit]"
+
+#: lib/swfobject.php:145
+msgid "The <a href=\"http://www.macromedia.com/go/getflashplayer\">Flash Player</a> and a browser with Javascript support are needed.."
+msgstr "<a href=\"http://www.macromedia.com/go/getflashplayer\">Flash Player</a> şi de un browser cu suport Javascript sunt necesare .."
+
+#: xml/media-rss.php:39
+msgid "No galleries have been yet created."
+msgstr "Nu există galerii au fost încă create."
+
+#: xml/media-rss.php:58
+#, php-format
+msgid "The gallery ID=%s does not exist."
+msgstr "Galerie ID=%s nu există."
+
+#: xml/media-rss.php:85
+#, php-format
+msgid "Invalid MediaRSS command (%s)."
+msgstr "Nevalid MediaRSS comandă (%s) "
+
