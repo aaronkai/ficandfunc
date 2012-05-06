@@ -505,4 +505,11 @@ function twentyten_posted_in() {
 		the_title_attribute( 'echo=0' )
 	);
 }
+	// Remove the excerpt_more filters by TwentyTen
+	remove_filter('excerpt_more', 'twentyten_auto_excerpt_more');
+	remove_filter('get_the_excerpt', 'twentyten_custom_excerpt_more');
+
+	//Add post formats
+	
+
 endif;

@@ -1,4 +1,4 @@
-<?php
+<php
 /**
  * The loop that displays a single post.
  *
@@ -30,6 +30,10 @@
 					</div><!-- .entry-meta -->
 
 					<div class="entry-content">
+						<div class="entry-intro">
+						<?php the_excerpt(); ?>
+						</div>
+
 						<?php the_content(); ?>
 						<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'twentyten' ), 'after' => '</div>' ) ); ?>
 					</div><!-- .entry-content -->
