@@ -1,0 +1,166 @@
+/*
+Theme Name: firstTheme
+Theme URI: n/a
+Author: Aaron Hubbard
+Author URI: fictionandfunction.com
+Description: my first theme
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+*/
+body{
+	background-image: url('./images/page_bg.jpg');
+}
+#outer-wrapper{
+	margin-top: -15px;
+	background: url(./images/big_circle.png) no-repeat;
+}
+#inner-wrapper{
+	width: 800px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+a:link, a:visited{
+	color: #035e21;
+}
+a:hover, a:active{
+	color: #035e21;
+	background-color: #f1f385;
+}
+	
+/*********************GENERAL STYLES*****************************/
+a{
+	text-decoration: none;
+}	
+	
+li{
+	list-style-type: none;
+}
+
+h3{
+	color: #3c8700;
+	font: 20px georgia, times new roman, serif;
+}
+
+p{
+	font: .8em/1.8em arial, helvetica, sans-serif;
+}
+/*********************HEADER*****************************************************************/
+
+#header{
+	background: #779E35;
+	overflow: hidden;
+	border-radius: 20px;
+	box-shadow: 2px 2px 3px #444;
+}
+#banner-list{
+	float: right;
+	display: inline-block;
+	color: white;
+	padding: 15px 20px;
+}
+	
+#header h1{
+	background: url(./images/logo.png) top left no-repeat;
+	width: 184px;
+	height: 184px;
+	z-index:	 30000;
+	float: left;
+	position: absolute;
+	left: 250px;
+	top: 60px;
+	text-indent: -99999px;
+}
+/**********************************CONTENT SECTION****************************************/
+
+#content-container{
+	border-radius: 20px;
+	margin-top: 30px;
+	padding-top: 30px;
+	background: #fff;
+	overflow: hidden;
+	box-shadow: 2px 2px 3px #444;
+}
+
+/******************************NAVBAR**********************************/
+#top-navbar li{
+	float: left;
+	padding: 0;
+	font: 13px arial, Helvetica, sans-serif;
+}
+
+#top-navbar ul{
+	margin-top: 10px;
+	overflow: hidden;
+	margin: 0;
+}
+
+#top-navbar{
+	padding: 0 0 0 160px;
+	background-color: #acc535;
+}
+
+#top-navbar a{
+	padding: 10px 6px;
+	display: inline-block;
+}
+
+/****************************ARTICLE***********************************/
+article{
+	width: 350px;
+	margin: 50px;
+	float: left;
+}
+
+/****************************SIDEBAR***********************************/
+#sidebar-container{
+	float: right;
+	width: 250px;
+	margin: 60px 100px 20px 0;
+	position: relative;
+	min-height: 500px;
+}
+#sidebar-container li{
+	font: .8em/1.8em arial, helvetica, sans-serif;
+}
+#sidebar-container ul{
+	margin: 0;
+	padding: 0;
+}
+
+#cash{
+	position: absolute;
+	left: 120px;
+	top: 300px;
+}
+/****************************FOOTER*******************************/
+#footer-box{
+	clear: both;
+}
+#bottom-navbar li{
+	float: left;
+	padding: 0;
+	font: 13px arial, Helvetica, sans-serif;
+}
+
+#bottom-navbar ul{
+	margin-top: 10px;
+	overflow: hidden;
+	margin: 0;
+}
+
+#bottom-navbar{
+	padding: 0;
+	background-color: #acc535;
+}
+
+#bottom-navbar a{
+	padding: 10px 6px;
+	display: inline-block;
+}
+
+#wp-footer p{
+	margin-left: 50px;
+	text-align: center;
+}
