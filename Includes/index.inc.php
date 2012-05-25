@@ -7,9 +7,18 @@ $dir=opendir(".");
 $files=array();
 while (($file=readdir($dir)) !== false)
 {
-if ($file!="BirdImages" and $file!=".git" and $file != "." and $file != ".." and $file != 
-"index.php" 
-and$file!= "Styles" and $file!="Includes" and $file!="Images")
+if ($file!="BirdImages" &&
+	$file!=".git" &&
+	$file != "." &&
+	$file != ".." &&
+	$file != ".gitignore" &&
+	$file != "index.php" &&
+	$file!= "Styles" and $file!="Includes" && 
+	$file!="Images" &&
+	$file!="Sandbox2" &&
+	$file!="firstTheme" &&
+	$file!="WordPress_Theme1"
+	)
 {
 array_push($files, $file);
 }
@@ -20,8 +29,10 @@ print '<ul>';
 foreach ($files as $file) {
 print '<li style="list-style-type: none"><a href="' . $file . '">' . $file . '</a></li>';
 }
-echo "<a href='http://www.thebespoken.com'>The Bespoken</a>";
-print '</ul>';
 ?>
+<a href='http://www.thebespoken.com'>The Bespoken</a>
+<a href='http://www.fictionandfunction.com/WordPress_Theme1/firsttheme/wordpress'>WordPress Theme 1</a>
+<a href='http://www.fictionandfunction.com/Sandbox2'>Simple WordPress Blog</a>
+</ul>
 </div><!--end mod-->
 
