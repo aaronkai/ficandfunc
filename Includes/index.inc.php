@@ -32,6 +32,7 @@ print '<li style="list-style-type: none"><a href="' . $file . '">' . $file . '</
 ?>
 <a href='http://www.thebespoken.com'>The Bespoken</a>
 <a href='http://www.fictionandfunction.com/WordPress_Theme1/firsttheme/wordpress'>WordPress Theme 1</a>
+<a href='http://www.fictionandfunction.com/Sandbox2'>Simple WordPress Blog</a>
 </ul>
 </div><!--end mod-->
 
