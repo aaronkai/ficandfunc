@@ -7,9 +7,16 @@ $dir=opendir(".");
 $files=array();
 while (($file=readdir($dir)) !== false)
 {
-if ($file!="BirdImages" and $file!=".git" and $file != "." and $file != ".." and $file != 
-"index.php" 
-and$file!= "Styles" and $file!="Includes" and $file!="Images")
+if ($file!="BirdImages" &&
+	$file!=".git" &&
+	$file != "." &&
+	$file != ".." &&
+	$file != ".gitignore" &&
+	$file != "index.php" &&
+	$file!= "Styles" and $file!="Includes" && 
+	$file!="Images" &&
+	$file!="Sandbox2" &&
+	$file!="Wordpress_Theme")
 {
 array_push($files, $file);
 }
