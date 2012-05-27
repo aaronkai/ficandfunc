@@ -1,98 +1,211 @@
-body {
-	background-color: #484a4c;
-	margin-top: 0;
-		color: #e8e6ed;
+/*
+Programmer: Aaron Hubbard
+Revision Date: 5/25/12
+File name: blackTheme.css
+Description: This is the code for my portfolio
+*/
 
+/*******************************************BROWER RESET*******************************
+ http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}	
+/*******************************************END BROWER RESET*******************************/
+
+/******************GENERAL STYLES*******************************/
+
+/******************LAYOUT*******************************/
+
+body {
+	background: url(../Images/background.jpg);
+	margin-top: 0;
+	color: #e8e6ed;
 }
 
 #wrapper{
 	background-color: #191919;
 	width: 760px;
 	margin: 0 auto;
-	padding: 0;
-	border: 4px #668e59 solid;
+	padding: 20px;
 }
 
-#banner{
+/******************Banner*******************************/
+
+header{
+	display: block;
+	font-family: 'Oleo Script', cursive;
+}	
+
+.main{
 	color: #e8e6ed;
  	text-transform: uppercase; 
- 	font-family: sans-serif;
-	font-size: 2.1em;
+	
+	font-size: 5em;
 	text-align: center;
-	margin-top: -10px;
-	margin-bottom: 60px;
+	margin: 30px 0 60px 0;
 }
 
-#banner a{
+.main a{
 	text-decoration: none
 }
 
-#banner a:link, #banner a:visited{
+.main a:link, .main a:visited{
 	color: #484a4c;
 }
 
-#banner a:hover {
+.main a:hover {
 	color: #e8e6ed;
 }
 
+/******************Sub-header*******************************/
 
-#column1{
+
+.sub img{
+	margin-top: -20px;
+	margin-left: -175px;
+}
+
+.sub h2{
+	font-size: 1.5em;
+	
+	margin-bottom: 10px;
+}
+
+hgroup{
+	display: block;
+	margin-bottom: 30px;
+}
+
+/******************SKULL IMAGE*******************************/
+#skull{
 	float:left;
 	width: 340px;
 	height: 400px;
 	background: url(../Images/Skull.png) no-repeat;
 	background-color: #939296;
 	border: 1px solid #484a4c;
-	margin-top: 0;
-	margin-left: 60px;
+	margin: 0 0 50px 30px;
 	border: 1px solid #000;
-	margin-bottom: 50px;
 }
 
-#mod{
+
+/******************RIGHT COLUMN*******************************/
+#accordion{
 	float: right;
-	width: 330px;
-	margin-right: 10px;
-	margin-top: -13px;
+	width: 320px;
+	margin-right: 30px;
+	font-family: monospace;
 }
 
-#mod a{
-	margin: 5px;	
-	width: 200px;
-	height: 60px;
-	display: block;
-	font: bold 1.1em sans-serif;
+#accordion h3 a{
+	font-size: 1em;
+}
+#accordion p{
+	font: .8em arial, sans-serif;
+}
+
+#accordion p a{
+	margin-top: 25px;
+	margin-left: ;
+	text-align: center;
+}
+
+/******************BUTTON******************************/
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
 	text-decoration: none;
-	border: 3px #668e59 solid;
-	background-color: #e8e6ed;
-	background-image: url(../Images/poison.png);
-	background-position: top left;
-	padding-left: 45px;
-	line-height: 60px;
-	overflow: hidden;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .1em; 
+	-moz-border-radius: .1em;
+	border-radius: .1em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
 }
-#mod a:hover {
-	background-position: -10px -60px;
+.button:hover {
+	text-decoration: none;
 }
-
-#mod a:link, #mod a:visited{
-	color: #484a4c;
-}
-
-#mod a:hover {
-	color: #0b4003;
+.button:active {
+	position: relative;
+	top: 1px;
 }
 
+.orange {
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.orange:hover {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.orange:active {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+
+/******************FOOTER******************************/
 #footer{
+	margin-top: 600px;
 	clear: both;
 	color: #e8e6ed;
 	font: oblique bold 50% sans-serif; 
 	text-transform: uppercase;
 	text-align: center;
 }
-/*#484a4c;  dark gray
- * #191919;  black
- * #668e59  puke green
- * #939296  medium gray
- * #e8e6ed; light gray
- */ 
