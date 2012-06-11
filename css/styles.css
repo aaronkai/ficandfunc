@@ -57,7 +57,10 @@
 
 		/******************layout*******************************/
 
-		body {
+		html {
+			 overflow-y: scroll;
+			overflow: -moz-scrollbars-vertical;
+			overflow: scroll;
 		}
 
 		/******************left column*******************************/
@@ -69,45 +72,47 @@
 		h1{
 			margin-top: 120px;
 			font-size: 150%;
-			font-family: 'Lato' sans-serif;
+			font-family: 'Lato', sans-serif;
 		}
 		
 		h2, h3, nav, footer{
 			font-size: 85%;
-			font-family: 'Droid Sans Mono', sans-serif;
+			font-family: 'Droid Sans Mono', monospace;
 		}
 		
 		h2{
-			margin-top: 20px;
+			margin-top: 30px;
 		}
 		
 		h3{
-			margin-top: 15px;
+			margin-top: 10px;
 		}
 		
 		nav{
-			margin-top: 25px;
-			font-size: 100%;
+			margin-top: 30px;
+			font-size: 95%;
 		}
 		
-		a{
-			
+		nav li{
+			padding-top: 5px;
 		}
-		a:link, #navbar a:visited{
+		a:link, a:visited{
 			color: #000;
 		}
-		a:hover, #navbar a:active{
-			color: #035e21;
-			background-color: #f1f385;
+		a:hover, a:active{
+			color: #00338A;
 		}
 		
 		/******************right column******************************/
 		
 		article{
 			margin-top: 100px;
-			font: 200% 'Lato' sans-serif;
+			font: 200% 'Lato', sans-serif;
 		}
 		
+		.toggler{
+			margin-top: 50px;
+		}
 
 		/******************RIGHT COLUMN******************************
 		#accordion{
@@ -134,6 +139,8 @@
 		
 		footer{	
 			margin-top: 30px;
+			width: 250px;
+			color: #666;
 		}
 			
 
