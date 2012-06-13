@@ -30,30 +30,34 @@
 		<link type="text/css" href="jquery/css/smoothness/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
 		<script type="text/javascript" src="jquery/js/jquery-1.7.2.min.js"></script>
 		<script type="text/javascript" src="jquery/js/jquery-ui-1.8.21.custom.min.js"></script>
-		<script type="text/javascript">
+	
+		
+		<script ype="text/javascript">
 			$(function(){
 				// Accordion
 				$("#accordion").accordion({ header: "h4", collapsible: true, active: false, autoHeight: false});
 				});
-		</script>
-		
-		<script>
+				
 			$(function() {
 				// run the currently selected effect
 				function runEffect() {
 					// get effect type from 
-					var selectedEffect = "drop";
-					
+					var selectedEffect = "blind";
 					// most effect types need no options passed by default
 					var options = {};
-					
 					// run the effect
-					$( "#effect" ).toggle( selectedEffect, options, 500 );
+					$( "#effect" ).toggle( selectedEffect, options, 1000);
 				};
+				
+				//hide .effect by default
+				$('#effect').hide(); // Hide div by default 
 				
 				// set effect from select menu value
 				$( "#button" ).click(function() {
 					runEffect();
+					//lower element when toggle is shown
+					$( ".moveUp" ).switchClass( "moveUp", "moveDown", 1000 );
+					$( ".moveDown" ).switchClass( "moveDown", "moveUp", 1000 );
 					return false;
 				});
 			});
@@ -91,72 +95,71 @@
 				
 			
 			<div class="sevencol last">
-				
-				
-				<article>
-					<p>Aaron Hubbard is a freelance web developer based in Asheville, North Carolina. His work focuses on clean, simple and effective design; responsive, mobile-friendly websites; and dynamic, data driven applications.</p>
-				</article>
-				
-				
-				<div class="toggler">
-					<div id="effect" class="ui-widget-content ui-corner-all">
-						<div id="accordion">
-							
-							<div>
-								<h4><a href="#">The Bespoken</a></h4>
+				<div class="rightcol">	
+					<div class="toggler">
+						<div id="effect" class="ui-widget-content ui-corner-all">
+							<div id="accordion">
+								
 								<div>
-									<p>A dynamicly generated social catalog. Essentially a hand-coded CMS written from scratch in PHP with a MySQL backend.</p>
-									<p><a href='http://www.thebespoken.com' class="orange button">Check it out.</a></p>
+									<h4><a href="#">The Bespoken</a></h4>
+									<div>
+										<p>A dynamicly generated social catalog. Essentially a hand-coded CMS written from scratch in PHP with a MySQL backend.</p>
+										<p><a href='http://www.thebespoken.com' class="orange button">Check it out.</a></p>
+									</div>
 								</div>
-							</div>
-							
-							<div>
-								<h4><a href="#">The Birds Database</a></h4>
+								
 								<div>
-									<p>This website makes use of a MySQL backend to dynamicly display data about birds. It includes a safe email form, user registration, and fields that users can update.</p>
-									<p><a href="http://www.fictionandfunction.com/PHP_MySQL_Demo" class="orange button">A database driven site</a></p>
+									<h4><a href="#">The Birds Database</a></h4>
+									<div>
+										<p>This website makes use of a MySQL backend to dynamicly display data about birds. It includes a safe email form, user registration, and fields that users can update.</p>
+										<p><a href="http://www.fictionandfunction.com/PHP_MySQL_Demo" class="orange button">A database driven site</a></p>
+									</div>
 								</div>
-							</div>
 
-							<div>
-								<h4><a href="#">Greenpoint Builders</a></h4>
 								<div>
-									<p>A site that displays some more complex work with CSS</p>
-									<p><a href="http://www.fictionandfunction.com/CSS_Demo" class="orange button">Greenpoint Builders</a><p>
-								</div>
-							</div>							
-							
-							<div>
-								<h4><a href="#">Greenpoint WordPress Site</a></h4>
+									<h4><a href="#">Greenpoint Builders</a></h4>
+									<div>
+										<p>A site that displays some more complex work with CSS</p>
+										<p><a href="http://www.fictionandfunction.com/CSS_Demo" class="orange button">Greenpoint Builders</a><p>
+									</div>
+								</div>							
+								
 								<div>
-									<p>The same site as above, but with done in WordPress using a hand-coded theme</p>
-									<p><a href="http://www.fictionandfunction.com/firstTheme/wordpress" class="orange button">Simple WordPress Blog</a></p>
+									<h4><a href="#">Greenpoint WordPress Site</a></h4>
+									<div>
+										<p>The same site as above, but with done in WordPress using a hand-coded theme</p>
+										<p><a href="http://www.fictionandfunction.com/firstTheme/wordpress" class="orange button">Simple WordPress Blog</a></p>
+									</div>
 								</div>
-							</div>
-							
-							<div>
-								<h4><a href="#">Asheville Go Club</a></h4>
+								
 								<div>
-									<p>A simple site coded in HTML and CSS for the Asheville Go Club</p>
-									<p><a href="http://www.fictionandfunction.com/Asheville_Go_Club" class="orange button">Asheville Go Club</a></p>
+									<h4><a href="#">Asheville Go Club</a></h4>
+									<div>
+										<p>A simple site coded in HTML and CSS for the Asheville Go Club</p>
+										<p><a href="http://www.fictionandfunction.com/Asheville_Go_Club" class="orange button">Asheville Go Club</a></p>
+									</div>
 								</div>
-							</div>
-							
-							<div>
-								<h4><a href="#">The Inca Trail</a></h4>
+								
 								<div>
-									<p>A WordPress site that modifies the default template.</p>
-									<p><a href="http://www.fictionandfunction.com/WordPress_Theme1/Sandbox2" class="orange button">The Inca Trail</a></p>
+									<h4><a href="#">The Inca Trail</a></h4>
+									<div>
+										<p>A WordPress site that modifies the default template.</p>
+										<p><a href="http://www.fictionandfunction.com/WordPress_Theme1/Sandbox2" class="orange button">The Inca Trail</a></p>
+									</div>
 								</div>
-							</div>
-							
-						</div><!--end accordion-->
-					</div><!--close effect-->
-				</div><!--close toggler-->
-				
-				<footer>
-					<p>v.3.3	2012	&copy;	Aaron Hubbard</p>
-				</footer>
+								
+							</div><!--end accordion-->
+						</div><!--close effect-->
+					</div><!--close toggler-->
+					
+					<article class="moveUp">
+						<p>Aaron Hubbard is a freelance web developer based in Asheville, North Carolina. His work focuses on clean, simple and effective design; responsive, mobile-friendly websites; and dynamic, data driven applications.</p>
+					</article>
+					
+					<footer>
+						<p>v.3.3	2012	&copy;	Aaron Hubbard</p>
+					</footer>
+				</div><!--close rightcol-->
 			</div><!--close sevencol-->
 		</div><!--close row-->
 

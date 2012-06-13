@@ -106,36 +106,12 @@
 		/******************right column******************************/
 		
 		article{
-			margin-top: 100px;
 			font: 200% 'Lato', sans-serif;
 		}
 		
-		.toggler{
-			margin-top: 50px;
+		.rightcol{
+			margin-top: 100px;
 		}
-
-		/******************RIGHT COLUMN******************************
-		#accordion{
-			float: right;
-			width: 320px;
-			margin-right: 30px;
-			font-family: monospace;
-		}
-
-		#accordion h3 a{
-			font-size: 1em;
-		}
-		#accordion p{
-			font: .8em arial, sans-serif;
-		}
-
-		#accordion p a{
-			margin-top: 25px;
-			margin-left: ;
-			text-align: center;
-		}
-
-		/******************FOOTER******************************/
 		
 		footer{	
 			margin-top: 30px;
@@ -143,7 +119,10 @@
 			color: #666;
 		}
 			
-
+		.moveDown{
+			margin-top: 50px;
+		}
+		
 		/* ============================= */
 		/* ! Layout for mobile version   */
 		/* ============================= */
