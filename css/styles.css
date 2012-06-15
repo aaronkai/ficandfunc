@@ -61,16 +61,21 @@
 			 overflow-y: scroll;
 			overflow: -moz-scrollbars-vertical;
 			overflow: scroll;
+			
 		}
 
 		/******************left column*******************************/
 
 		header{
 			display: block;
+			margin-top: 30px;
 		}	
 		
+		header img{
+			margin-left: 5%;
+			}
 		h1{
-			margin-top: 120px;
+			margin-top: 20px;
 			font-size: 150%;
 			font-family: 'Lato', sans-serif;
 		}
@@ -122,6 +127,13 @@
 		.moveDown{
 			margin-top: 50px;
 		}
+		.moveUp{
+			margin-top: 0;
+		}
+		
+		.toggle{
+			width: 250px;
+			}
 		
 		/* ============================= */
 		/* ! Layout for mobile version   */
@@ -132,9 +144,6 @@
 			body {
 				
 			}
-
-		
-
 
 /* ========================================== */
 /* ! Provide higher res assets for iPhone 4   */
