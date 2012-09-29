@@ -89,6 +89,22 @@
 							<div id="accordion">
 								
 								<div>
+									<h4><a href="#">Good Earth Cleaning</a></h4>
+									<div>
+										<p>A Drupal site for Good Earth Cleaning Company.</p>
+										<br />
+										<p><a href='http://goodearthclean.com' target="_blank">Check it out.</a></p>
+									</div>
+								</div>
+								<div>
+									<h4><a href="#">Pace Cycles</a></h4>
+									<div>
+										<p>A simple, mobile friendly billboard site for Pace Cycles.</p>
+										<br />
+										<p><a href='http://www.pacecyclesmarshall.com' target="_blank">Check it out.</a></p>
+									</div>
+								</div>
+								<div>
 									<h4><a href="#">The Bespoken</a></h4>
 									<div>
 										<p>A dynamicly-generated social catalog. Essentially a hand-coded CMS written from scratch in PHP with a MySQL backend. The CSS and HTML was entirely custom: no templates here!</p>
@@ -120,7 +136,7 @@
 									<div>
 										<p>The same site as above, but with done in WordPress using a hand-coded theme. You know, just because.</p>
 										<br />
-										<p><a href="http://www.fictionandfunction.com/firstTheme/wordpress" target="_blank">Check it out.</a></p>
+										<p><a href="http://www.fictionandfunction.com/WordPress_Theme1/firsttheme/wordpress" target="_blank">Check it out.</a></p>
 									</div>
 								</div>
 								
@@ -133,14 +149,6 @@
 									</div>
 								</div>
 								
-								<div>
-									<h4><a href="#">The Inca Trail</a></h4>
-									<div>
-										<p>A WordPress site that modifies the default template.</p>
-										<br />
-										<p><a href="http://www.fictionandfunction.com/WordPress_Theme1/Sandbox2" target="_blank">Check it out.	</a></p>
-									</div>
-								</div>
 								
 							</div><!--end accordion-->
 						</div><!--close effect-->
@@ -151,7 +159,7 @@
 					</article>
 					
 					<footer>
-						<p>v.3.3	2012	&copy;	Aaron Hubbard</p>
+						<p>v.3.6	2012	&copy;	Aaron Hubbard</p>
 					</footer>
 				</div><!--close rightcol-->
 			</div><!--close sevencol-->
