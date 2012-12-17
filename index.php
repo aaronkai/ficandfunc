@@ -67,7 +67,7 @@
 					<img src="Images/logo2.png" />
 					<h1>Aaron Kai Hubbard</h1>
 					<h2> Available for Hire </h2>
-					<h3>828.779.0920</h3>
+					<h3>828.351.4822</h3>
 					<h3>aaron.kai.hubbard [at]
 						<br />gmail.com
 					</h3>
@@ -75,7 +75,7 @@
 
 				<nav>
 					<ul>
-						<li><a href="resume.pdf">Resume (.pdf)</a></li>
+						<li><a href="http://www.tinyurl.com/crg7a7u">Resume</a></li>
 						<li><a href="#" id="button">Recent Work </a><li>
 					</ul>
 				</nav>
@@ -109,7 +109,7 @@
 									<div>
 										<p>A dynamicly-generated social catalog. Essentially a hand-coded CMS written from scratch in PHP with a MySQL backend. The CSS and HTML was entirely custom: no templates here!</p>
 										<br />
-										<p><a href='http://www.thebespoken.com' target="_blank">Check it out.</a></p>
+										<p><a href='http://thebespoken.nfshost.com' target="_blank">Check it out.</a></p>
 									</div>
 								</div>
 								
