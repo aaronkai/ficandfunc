@@ -1,0 +1,159 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+		/*******************************************BROWER RESET*******************************
+		 http://meyerweb.com/eric/tools/css/reset/ 
+		   v2.0 | 20110126
+		   License: none (public domain)
+		*/
+
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, 
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/* HTML5 display-role reset for older browsers */
+		article, aside, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}	
+		/*******************************************END BROWER RESET*******************************/
+
+		
+
+		/******************layout*******************************/
+
+		html {
+			 overflow-y: scroll;
+			overflow: -moz-scrollbars-vertical;
+			overflow: scroll;
+			
+		}
+
+		/******************left column*******************************/
+
+		header{
+			display: block;
+			margin-top: 30px;
+		}	
+		
+		header img{
+			margin-left: 5%;
+			}
+		h1{
+			margin-top: 20px;
+			font-size: 150%;
+			font-family: 'Lato', sans-serif;
+		}
+		
+		h2, h3, nav, footer{
+			font-size: 85%;
+			font-family: 'Droid Sans Mono', monospace;
+		}
+		
+		h2{
+			margin-top: 30px;
+		}
+		
+		h3{
+			margin-top: 10px;
+		}
+		
+		nav{
+			margin-top: 30px;
+			font-size: 95%;
+		}
+		
+		nav li{
+			padding-top: 5px;
+		}
+		a:link, a:visited{
+			color: #000;
+		}
+		a:hover, a:active{
+			color: #00338A;
+		}
+		
+		/******************right column******************************/
+		
+		article{
+			font: 200% 'Lato', sans-serif;
+		}
+		
+		.rightcol{
+			margin-top: 100px;
+		}
+		
+		footer{	
+			margin-top: 30px;
+			width: 250px;
+			color: #666;
+		}
+			
+		.moveDown{
+			margin-top: 50px;
+		}
+		.moveUp{
+			margin-top: 0;
+		}
+		
+		.toggle{
+			width: 250px;
+			}
+		
+		/* ============================= */
+		/* ! Layout for mobile version   */
+		/* ============================= */
+
+		@media handheld, only screen and (max-width: 767px) {
+
+			body {
+				
+			}
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}

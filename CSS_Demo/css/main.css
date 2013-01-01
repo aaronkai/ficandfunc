@@ -1,0 +1,166 @@
+#wrapper{
+	width: 850px;
+	margin: 0 auto;
+	}
+h1{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	font-size: 20px;
+	}
+ul{
+	list-style: none;
+	}	
+a{
+	text-decoration: none;
+	}	
+h2{
+	color: #3c8700;
+	font: 20px georgia, times new roman, serif;
+	}
+/*-------------------BACKGROUNDS--------------------------------------------------------------*/
+body{
+	background: #e0dd02;
+	margin: 0;
+	padding: 0;
+	}
+#background{
+	margin: 0;
+	padding-bottom: 10px;
+	background: url(../images/page_bg.jpg);
+	}
+#background2{
+	background: url(../images/big_circle.png) no-repeat;
+	}
+
+/*-------------------BANNER--------------------------------------------------------------*/
+#banner_top{
+	background: url(../images/green_top.png) no-repeat;
+	padding: 14px;
+	margin: 0;
+	}
+#banner_inner{
+	background: url(../images/green_mid.png) repeat-y;
+	padding: 0 10px;
+	margin: 0;
+	overflow: hidden;
+	zoom: 1;
+	}
+#banner_bottom{
+	background: url(../images/green_btm.png) no-repeat;
+	padding: 29px;
+	}
+#banner_inner ul{
+	float: right;
+	display: inline-block;
+	padding: 0 15px 0 0;
+	margin: 0 50px 0 0;
+	}
+#banner_inner h1{
+	margin: 0;
+	padding: 0;
+	}
+#banner li{
+	font: 14px arial, helvetica, sans-serif; 
+	color: #fff;
+	}
+/*-------------------BANNER IMAGE REPLACEMENT AND BANNER IMAGE POSITIONING--------------------------*/
+#banner{
+	position: relative;
+	}
+#banner h1{
+	background: url(../images/logo.png) top left no-repeat;
+	width: 184px;
+	height: 184px;
+	z-index: 30000;
+	float: left;
+	position: absolute;
+	left: 30px;
+	text-indent: -99999px;
+	}
+	
+/*-------------------CONTENT CONTAINER--------------------------------------------------------------*/
+#content_top{
+	background: url(../images/white_top.png) no-repeat;
+	height: 25px;
+	}
+#content_inner{
+	margin: 0;
+	background: url(../images/white_mid.png) repeat-y;
+	padding: 0 38px 0 4px;
+	overflow: hidden;
+	}
+#content_bottom{
+	background: url(../images/white_btm.png) no-repeat;
+	height: 36px;
+	}
+
+/*-------------------NAVIGATION BAR--------------------------------------------------------------*/
+#navbar li{
+	float: left;
+	padding: 0;
+	font: 13px arial, Helvetica, sans-serif;
+	}
+#navbar ul{
+	overflow: hidden;
+	margin: 0;
+	}
+#navbar{
+	margin: 0;
+	padding: 0 0 0 210px;
+	background-color: #acc535;
+	}
+#navbar a{
+	padding: 10px 6px;
+	display: inline-block;
+	}
+#navbar a:link, #navbar a:visited{
+	color: #035e21;
+	}
+#navbar a:hover, #navbar a:active{
+	color: #035e21;
+	background-color: #f1f385;
+	}
+	
+/*-------------------COLUMNS--------------------------------------------------------------*/
+#column1{
+	float: left;
+	width: 400px;
+	margin: 50px 0 0 50px;
+	}
+#column2{
+	float: right;
+	width: 275px;
+	margin-top: 50px;
+	background: url(../images/money.jpg) no-repeat bottom right;
+	padding-bottom: 120px;
+	}
+ul{
+	padding: 0;
+	margin: 0;
+	}
+/*-------------------LINKS IN COLUMNS-----------------------------------------------------*/
+#column1 p, #column2 a{
+	font: .8em/1.8em arial, helvetica, sans-serif;
+	} 
+#column1 a, #column2 a{
+	font-weight: bold;
+	color: #3c8700;
+	}
+#column1 a:hover, #column2 a:hover{
+	color: #afc300;
+	}
+/*-------------------FOOTER-----------------------------------------------------*/
+#footer li{
+	display: inline;
+	font: 12px arial, helvetica, sans-serif;
+	color: #666;
+	}
+#footer ul{	
+	text-align: center;
+	margin: 7px;
+	}
+
+
+
+
