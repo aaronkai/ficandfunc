@@ -54,21 +54,20 @@
 			});
 		</script>
 	<!--end jQuery-->
-<!--Google Analytics-->
-<script type="text/javascript">
+    <!--Google analytics-->
+          <script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-37364426-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-37364426-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        
+        </script>
 	<!--google fonts-->
 		<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
@@ -124,7 +123,11 @@
 									<div>
 										<p>A dynamicly-generated social catalog. Essentially a hand-coded CMS written from scratch in PHP with a MySQL backend. The CSS and HTML was entirely custom: no templates here!</p>
 										<br />
+<<<<<<< HEAD
 										<p><a href='/bespoken/index.php' target="_blank">Check it out.</a></p>
+=======
+										<p><a href='http://thebespoken.nfshost.com' target="_blank">Check it out.</a></p>
+>>>>>>> b0a8136eccb66a1b3128af81e93babdc0f1ef4a6
 									</div>
 								</div>
 								
